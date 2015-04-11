@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Shannon</string>
+   
+    <string name="app_id">1472409166311440</string>
+   
+    <string name="title_activity_full">FullActivity</string>
+   
+
+</resources>

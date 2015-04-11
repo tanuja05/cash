@@ -1,0 +1,79 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+>
+<ScrollView android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:scrollbars="none">
+    <RelativeLayout android:id="@+id/lyt1"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+>
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/hmmm"  />
+
+    <TextView
+        android:id="@+id/txtShannon"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"
+        android:gravity="center"
+        android:text="SR"
+        android:textColor="#fff"
+        android:textSize="250sp" />
+
+<TextView
+    android:id="@+id/txtOptions"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_alignParentLeft="true"
+    android:layout_below="@+id/txtGallery"
+    android:layout_marginTop="23dp"
+    android:gravity="center"
+    android:text="OPTIONS"
+    android:textColor="#ededed"
+    android:textSize="40sp" />
+
+<TextView
+    android:id="@+id/txtassu"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_alignParentLeft="true"
+    android:layout_below="@+id/txtShannon"
+    android:layout_marginTop="20dp"
+    android:gravity="center"
+    android:text="MAKE ME TALK"
+    android:textColor="#cfcfcf"
+    android:textSize="40sp" />
+
+<TextView
+    android:id="@+id/txtGallery"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_alignParentLeft="true"
+    android:layout_below="@+id/txtassu"
+    android:layout_marginTop="23dp"
+    android:gravity="center"
+    android:text="VIEW GALLERY"
+    android:textColor="#dcdcdc"
+    android:textSize="40sp" />
+
+<ImageView
+    android:id="@+id/imageView2"
+    android:layout_width="70dp"
+    android:layout_height="70dp"
+    android:layout_below="@+id/txtOptions"
+    android:layout_centerHorizontal="true"
+    android:layout_marginTop="19dp"
+    android:src="@drawable/images" />
+</RelativeLayout>
+</ScrollView>
+</RelativeLayout>

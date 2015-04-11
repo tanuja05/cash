@@ -1,0 +1,80 @@
+<RelativeLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+      android:background="#000"
+  >
+  
+    
+    <ScrollView android:layout_width="match_parent"
+    android:layout_height="match_parent"
+   android:background="#000"
+android:scrollbars="none"
+
+>
+   <RelativeLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+   android:background="#000"
+     >
+
+    <TextView
+        android:id="@+id/txtmakemetak"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="3dp"
+        android:gravity="center"
+        android:text="Make Me Talk"
+        android:textColor="#ff00"
+        android:textSize="60sp" />
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="fill_parent"
+        android:layout_height="100dp"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/txtmakemetak"
+        android:background="@drawable/hello" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/imageView1"
+        android:layout_marginTop="3dp"
+        android:background="@drawable/sexy_lady" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="wrap_content"
+        android:layout_height="90dp"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/imageView2"
+        android:layout_marginTop="3dp"
+        android:background="@drawable/no_lie" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="wrap_content"
+        android:layout_height="70dp"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/imageView3"
+        android:layout_marginTop="4dp"
+        android:background="@drawable/lets_have_sex" />
+<TextView
+        android:id="@+id/textView1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:gravity="center"
+        android:layout_below="@+id/imageView4"
+        android:textSize="50sp"
+        android:layout_alignParentLeft="true"
+        android:text="Shannon ;-) XO"
+        android:textColor="#fff" />
+</RelativeLayout>
+</ScrollView>
+</RelativeLayout>

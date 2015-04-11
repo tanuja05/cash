@@ -1,0 +1,38 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+  >
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+    
+        android:background="@drawable/openi" />
+
+    <TextView
+        android:id="@+id/txt_swipe"
+        android:layout_width="fill_parent"
+        android:layout_height="100dp"
+        android:gravity="center"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:text="SWIPE TO PLAY" 
+        android:textSize="35sp"
+        android:textColor="#E7E7E7"/>
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+       android:textSize="90sp"
+        android:gravity="center"
+        android:textColor="#000"
+        android:singleLine="true"
+        android:text="Shannon Robinson" />
+
+</RelativeLayout>

@@ -1,0 +1,110 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="${relativePackage}.${activityClass}" >
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:background="@drawable/options_nw"
+        android:scrollbars="none" >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:id="@+id/txtoptions"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+               
+                android:textSize="80sp" />
+
+            <TextView
+                android:id="@+id/txtcalender"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@+id/txtoptions"
+                android:layout_marginLeft="18dp"
+                android:layout_marginTop="60dp"
+                android:padding="6dp"
+                android:text="SET IMAGE AS WALLPAPER"
+                android:textColor="#fff"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/txtRate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/txtunlock"
+                android:layout_below="@+id/txtunlock"
+                android:layout_marginTop="15dp"
+                android:padding="6dp"
+                android:text="RATE THIS APP"
+                android:textColor="#fff"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/txtunlock"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/txtcalender"
+                android:layout_below="@+id/txtcalender"
+                android:layout_marginTop="15dp"
+                android:padding="6dp"
+                android:text="UNLOCK IMAGES"
+                android:textColor="#fff"
+                android:textSize="15sp" />
+
+            <ToggleButton
+                android:id="@+id/textView3"
+                android:layout_width="90dp"
+                android:layout_height="30dp"
+                android:layout_alignBaseline="@+id/txtcalender"
+                android:layout_alignBottom="@+id/txtcalender"
+                android:layout_marginLeft="14dp"
+                android:layout_marginRight="3dp"
+                android:layout_toRightOf="@+id/txtcalender"
+                android:background="@drawable/bgtoggle"
+                android:button="@null"
+                
+                android:textOff=""
+                android:textOn="" />
+
+            <TextView
+                android:id="@+id/txtshannon"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@+id/txtRate"
+                android:gravity="center"
+                android:textSize="60sp" />
+
+            <ImageView
+                android:id="@+id/imageView1"
+                android:layout_width="80dp"
+                android:layout_height="70dp"
+                android:layout_below="@+id/txtshannon"
+                android:layout_centerHorizontal="true"
+                android:src="@drawable/images" />
+
+            <TextView
+                android:id="@+id/txtShare"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_below="@+id/imageView1"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="2dp"
+                android:gravity="center"
+                android:text="Share"
+                android:textColor="#b7b4b4"
+                android:textSize="15sp" />
+
+        </RelativeLayout>
+    </ScrollView>
+
+</RelativeLayout>
