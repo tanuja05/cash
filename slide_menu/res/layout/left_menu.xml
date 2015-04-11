@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+  android:background="#ff00"
+    android:orientation="vertical" >
+    <LinearLayout
+        android:layout_width="240dp"
+        android:layout_height="fill_parent"
+        android:background="#cdcdcd"
+        android:orientation="vertical" >
+    <RelativeLayout
+        android:layout_width="240dp"
+        android:layout_height="130dp"
+        android:background="#cdcdcd" >
+
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="15dp"
+            android:src="@drawable/ic_launcher" />
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/imageView1"
+            android:layout_below="@+id/imageView1"
+            android:layout_marginTop="15dp"
+            android:text="ABCD Company"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/relMsg"
+        android:layout_width="240dp"
+        android:padding="10dp"
+         android:background="#cdcdcd"
+        android:layout_height="wrap_content" >
+
+        <ImageView
+            android:id="@+id/imagemsg"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="10dp"
+            android:src="@drawable/ic_launcher" />
+
+        <TextView
+            android:id="@+id/txtmsg"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            android:layout_toRightOf="@+id/imagemsg"
+            android:text="TextView"
+            android:textColor="#ff00"
+            android:textSize="18sp" />
+
+    </RelativeLayout>
+     <RelativeLayout
+        android:id="@+id/relpass"
+        android:layout_width="240dp"
+        android:padding="10dp"
+         android:background="#cdcdcd"
+        android:layout_height="wrap_content" >
+
+        <ImageView
+            android:id="@+id/imgpass"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="10dp"
+            android:src="@drawable/ic_launcher" />
+
+        <TextView
+            android:id="@+id/txtpass"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+             android:textSize="18sp"
+              android:textColor="#ff00"
+            android:layout_toRightOf="@+id/imgpass"
+            android:text="TextView" />
+
+    </RelativeLayout>
+     <RelativeLayout
+        android:id="@+id/relabt"
+        android:layout_width="240dp"
+        android:padding="10dp"
+         android:background="#cdcdcd"
+        android:layout_height="wrap_content" >
+
+        <ImageView
+            android:id="@+id/imgabt"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="10dp"
+            android:src="@drawable/ic_launcher" />
+
+        <TextView
+            android:id="@+id/txtabt"
+             android:textSize="18sp"
+            android:layout_width="wrap_content"
+             android:textColor="#ff00"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            android:layout_toRightOf="@+id/imgabt"
+            android:text="TextView" />
+
+    </RelativeLayout>
+    <RelativeLayout
+        android:id="@+id/rellogout"
+        android:layout_width="240dp"
+        android:padding="10dp"
+         android:background="#cdcdcd"
+        android:layout_height="wrap_content" >
+
+        <ImageView
+            android:id="@+id/imglogout"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="10dp"
+            android:src="@drawable/ic_launcher" />
+
+        <TextView
+             android:textSize="18sp"
+            android:id="@+id/txtlogout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+             android:textColor="#ff00"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            android:layout_toRightOf="@+id/imglogout"
+            android:text="TextView" />
+
+    </RelativeLayout>
+    </LinearLayout>
+
+</LinearLayout>
