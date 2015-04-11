@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Energy Demand Alert</string>
+    <string name="action_settings">Settings</string>
+    <string name="about">Energy Demand Alert® is a solution designed to monitor and respond to energy usage in real time, allowing clients to remove peak demand events, hence reducing Demand Capacity Charges associated with commercial energy tariffs. Demand Alert® has been developed by industry veterans; it takes immediate action by shedding loads as well as providing alarms, notifications, load profile views and reporting.</string>
+    <string name="title_activity_get_meter_reading">GetMeterReadingActivity</string>
+    <string name="hello_world">Hello world!</string>
+
+</resources>

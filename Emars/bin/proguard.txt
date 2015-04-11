@@ -1,0 +1,27 @@
+# view AndroidManifest.xml #generated:48
+-keep class com.fw.emars.AboutEnergyActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:56
+-keep class com.fw.emars.GetMeterReadingActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:19
+-keep class com.fw.emars.MainActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:36
+-keep class com.fw.emars.NumberScreen { <init>(...); }
+
+# view AndroidManifest.xml #generated:44
+-keep class com.fw.emars.ResultSettingActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:40
+-keep class com.fw.emars.Settings { <init>(...); }
+
+# view AndroidManifest.xml #generated:24
+-keep class com.fw.emars.SmsReciever { <init>(...); }
+
+# view AndroidManifest.xml #generated:34
+-keep class com.fw.emars.SplashActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:30
+-keep class com.fw.emars.newResult { <init>(...); }
+

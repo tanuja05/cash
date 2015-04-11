@@ -1,0 +1,284 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg" >
+
+    <RelativeLayout
+        android:id="@+id/rel_main"
+        android:layout_width="fill_parent"
+        android:layout_height="40dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/top_strip" >
+
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="40dp"
+            android:layout_height="40dip"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="3dp"
+            android:paddingLeft="7dp"
+            android:paddingRight="7dp"
+            android:src="@drawable/settings" />
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="4dp"
+            android:layout_toLeftOf="@+id/imageView1"
+            android:src="@drawable/side_strips" />
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="29dp"
+            android:layout_toLeftOf="@+id/imageView2"
+            android:text="Energy Demand Alert"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/rel_contet"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/rel_main" >
+
+        <RelativeLayout
+            android:id="@+id/relativeLayout1"
+            android:layout_width="fill_parent"
+            android:layout_height="50dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="50dp"
+            android:layout_marginTop="20dp" >
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentLeft="true"
+                android:text="28 may 2014"
+                android:textColor="#fff" />
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:text="Energy Demand Response"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@android:color/transparent"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginLeft="50dp"
+                android:layout_toRightOf="@+id/textView2"
+                android:gravity="center"
+                android:text="2:30PM"
+                android:textColor="#fff" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/rel_nmi"
+            android:layout_width="fill_parent"
+            android:layout_height="50dp"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/relativeLayout1"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/green_strip" >
+
+            <TextView
+                android:id="@+id/txt_nmi"
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="24dp"
+                android:layout_toLeftOf="@+id/txt_nmi_result"
+                android:background="@drawable/id_corner"
+                android:gravity="center"
+                android:text="ID"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="#fff" />
+
+            <TextView
+                android:id="@+id/txt_nmi_result"
+                android:layout_width="wrap_content"
+                android:layout_height="35dp"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="20dp"
+                android:background="@drawable/layout_corner"
+                android:gravity="center"
+                android:paddingLeft="10dp"
+                android:paddingRight="30dp"
+                android:text="Medium Text"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/rel_voltage"
+            android:layout_width="fill_parent"
+            android:layout_height="50dp"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/rel_nmi"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/green_strip" >
+
+            <TextView
+                android:id="@+id/txt_voltage"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="35dp"
+                android:text="KVAhr"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="#fff" />
+
+            <TextView
+                android:id="@+id/txt_voltage_result"
+                android:layout_width="wrap_content"
+                android:layout_height="35dp"
+                android:layout_alignBaseline="@+id/txt_voltage"
+                android:layout_alignBottom="@+id/txt_voltage"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="17dp"
+                android:background="@drawable/layout_corner"
+                android:gravity="center"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:text="Medium Text"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/rel_amps"
+            android:layout_width="fill_parent"
+            android:layout_height="50dp"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/rel_voltage"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/green_strip" >
+
+            <TextView
+                android:id="@+id/txt_amps"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="34dp"
+                android:gravity="center"
+                android:text="KWhr"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="#fff" />
+
+            <TextView
+                android:id="@+id/txt_amp_result"
+                android:layout_width="wrap_content"
+                android:layout_height="35dp"
+                android:layout_alignBaseline="@+id/txt_amps"
+                android:layout_alignBottom="@+id/txt_amps"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="17dp"
+                android:background="@drawable/layout_corner"
+                android:gravity="center"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:text="Medium Text"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/rel_powrf"
+            android:layout_width="fill_parent"
+            android:layout_height="50dp"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/rel_amps"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/green_strip" >
+
+            <TextView
+                android:id="@+id/txt_power"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="7dp"
+                android:gravity="center"
+                android:text="Power Factor"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="#fff" />
+
+<TextView
+    android:id="@+id/txt_power_result"
+    android:layout_width="wrap_content"
+    android:layout_height="35dp"
+    android:layout_alignBaseline="@+id/txt_power"
+    android:layout_alignBottom="@+id/txt_power"
+    android:layout_alignParentRight="true"
+    android:layout_marginRight="18dp"
+    android:background="@drawable/layout_corner"
+    android:gravity="center"
+    android:paddingLeft="20dp"
+    android:paddingRight="20dp"
+    android:text="Medium Text"
+    android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        </RelativeLayout>
+
+        <!-- <Button -->
+        <!-- android:id="@+id/btn_update" -->
+        <!-- android:layout_width="wrap_content" -->
+        <!-- android:layout_height="45dp" -->
+        <!-- android:paddingLeft="15dp" -->
+        <!-- android:paddingRight="15dp" -->
+        <!-- android:layout_alignParentLeft="true" -->
+        <!-- android:layout_below="@+id/rel_powrf" -->
+        <!-- android:layout_marginLeft="46dp" -->
+        <!-- android:layout_marginTop="19dp" -->
+        <!-- android:background="@drawable/layout_corner" -->
+        <!-- android:text="UPDATE" /> -->
+
+        <Button
+            android:id="@+id/btn_clear"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/rel_powrf"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/btn_coner"
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp"
+            android:text="CLEAR ALERT"
+            android:textColor="#fff" />
+    </RelativeLayout>
+
+</RelativeLayout>

@@ -1,0 +1,226 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg" >
+
+    <RelativeLayout
+        android:id="@+id/rel_main"
+        android:layout_width="fill_parent"
+        android:layout_height="40dp"
+        android:background="@drawable/top_strip"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true" >
+
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="40dp"
+            android:layout_height="40dip"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="3dp"
+            android:paddingLeft="7dp"
+            android:paddingRight="7dp"
+            android:src="@drawable/settings" />
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="4dp"
+            android:layout_toLeftOf="@+id/imageView1"
+            android:src="@drawable/side_strips" />
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="29dp"
+            android:layout_toLeftOf="@+id/imageView2"
+            android:text="Energy Demand Alert"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    </RelativeLayout>
+
+  <Button
+      android:id="@+id/btn_save"
+      android:layout_width="100dp"
+      android:layout_height="45dp"
+      android:layout_below="@+id/relativeLayout1"
+      android:layout_centerHorizontal="true"
+      android:layout_marginTop="23dp"
+      android:background="@drawable/button"
+      android:text="Save"
+      android:textColor="#fff" />
+
+  <RelativeLayout
+      android:id="@+id/relativeLayout1"
+      android:layout_width="fill_parent"
+      android:layout_height="wrap_content"
+      android:layout_alignParentLeft="true"
+      android:layout_below="@+id/rel_main"
+      android:layout_marginTop="52dp" >
+
+      <EditText
+          android:id="@+id/editText1"
+          android:layout_width="fill_parent"
+          android:layout_height="wrap_content"
+          android:layout_alignParentRight="true"
+          android:layout_alignParentTop="true"
+          android:layout_marginLeft="2dp"
+          android:layout_marginRight="10dp"
+          android:layout_marginTop="10dp"
+          android:layout_toRightOf="@+id/editText31"
+          android:background="@drawable/et_background"
+          android:ems="10"
+          android:gravity="center"
+          android:hint="1st Mobile no."
+          android:inputType="number" />
+
+      <EditText
+          android:id="@+id/editText4"
+          android:layout_width="fill_parent"
+          android:layout_height="wrap_content"
+          android:layout_alignLeft="@+id/editText2"
+          android:layout_alignRight="@+id/editText2"
+          android:layout_below="@+id/editText2"
+          android:layout_marginTop="10dp"
+          android:background="@drawable/et_background"
+          android:ems="10"
+          android:gravity="center"
+          android:hint="3rd mobile no."
+          android:inputType="number" />
+
+      <EditText
+          android:id="@+id/editText2"
+          android:layout_width="fill_parent"
+          android:layout_height="wrap_content"
+          android:layout_alignLeft="@+id/editText1"
+          android:layout_alignRight="@+id/editText1"
+          android:layout_below="@+id/editText1"
+          android:layout_marginTop="10dp"
+          android:background="@drawable/et_background"
+          android:ems="10"
+          android:gravity="center"
+          android:hint="2nd mobile no."
+          android:inputType="number" />
+
+      <EditText
+          android:id="@+id/editText31"
+          android:layout_width="40dp"
+          android:layout_height="wrap_content"
+          android:layout_above="@+id/editText2"
+          android:layout_alignParentLeft="true"
+          android:layout_marginLeft="33dp"
+          android:inputType="number"
+          android:background="@drawable/et_background"
+          android:ems="10" ><requestFocus></requestFocus></EditText>
+
+      <EditText
+          android:id="@+id/editText5"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_alignRight="@+id/editText4"
+          android:layout_below="@+id/editText4"
+          android:layout_centerVertical="true"
+          android:layout_marginBottom="10dp"
+          android:layout_marginLeft="2dp"
+          android:layout_marginTop="10dp"
+          android:background="@drawable/et_background"
+          android:ems="10"
+          android:gravity="center"
+          android:hint="Enter K Factor"
+          
+          android:inputType="numberDecimal" />
+
+      <EditText
+          android:id="@+id/editText32"
+          android:layout_width="40dp"
+                android:inputType="number"
+          android:layout_height="wrap_content"
+          android:layout_alignBaseline="@+id/editText2"
+          android:layout_alignBottom="@+id/editText2"
+          android:layout_alignLeft="@+id/editText31"
+          android:background="@drawable/et_background"
+          android:ems="10" />
+
+      <EditText
+          android:id="@+id/editText3"
+          android:layout_width="40dp"
+                android:inputType="number"
+          android:layout_height="wrap_content"
+          android:layout_alignBaseline="@+id/editText4"
+          android:layout_alignBottom="@+id/editText4"
+          android:layout_alignLeft="@+id/editText32"
+          android:background="@drawable/et_background"
+          android:ems="10" />
+
+      <EditText
+          android:id="@+id/editText33"
+          android:layout_width="40dp"
+          android:layout_height="wrap_content"
+          android:layout_alignBaseline="@+id/editText4"
+          android:layout_alignBottom="@+id/editText4"
+          android:layout_alignLeft="@+id/editText32"
+          android:background="@drawable/et_background"
+          android:ems="10"
+          android:inputType="number" />
+
+      <TextView
+          android:id="@+id/textView3"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_alignBaseline="@+id/editText32"
+          android:layout_alignBottom="@+id/editText32"
+          android:layout_alignParentLeft="true"
+          android:text="+" 
+          
+          android:layout_marginRight="10dp"
+          android:textSize="20sp"
+          android:layout_marginLeft="20dp"
+          android:textColor="#fff"/>
+
+<TextView
+    android:id="@+id/textView4"
+    
+          android:layout_marginRight="2dp"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignBaseline="@+id/editText3"
+    android:layout_alignBottom="@+id/editText3"
+    android:layout_alignParentLeft="true"
+    android:text="+"
+      android:textSize="20sp"
+    android:layout_marginLeft="20dp"
+    android:textColor="#fff" />
+
+<TextView
+    android:id="@+id/textView2"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_above="@+id/editText2"
+    android:layout_alignLeft="@+id/textView3"
+    android:layout_toLeftOf="@+id/editText32"
+    android:text="+"
+    android:textColor="#fff"
+    android:textSize="20sp" />
+
+<TextView
+    android:id="@+id/textView5"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignBottom="@+id/editText5"
+    android:layout_alignTop="@+id/editText5"
+    android:layout_toLeftOf="@+id/editText5"
+    android:layout_toRightOf="@+id/textView4"
+    android:background="@drawable/et_background"
+       android:text="K Factor"
+       android:gravity="center"
+    android:textColor="#000"
+    android:textSize="14sp" />
+
+  </RelativeLayout>
+
+</RelativeLayout>
