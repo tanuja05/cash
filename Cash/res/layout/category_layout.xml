@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <RelativeLayout
+        android:id="@+id/relMain"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <ScrollView
+            android:id="@+id/scrollView1"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:scrollbars="none"
+            android:layout_alignParentTop="true" >
+
+            <RelativeLayout
+                android:id="@+id/lytContainer"
+                android:layout_width="fill_parent"
+                android:layout_height="900dp" >
+
+                <RelativeLayout
+                    android:id="@+id/lytAutoContainer"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent" >
+
+                    <RelativeLayout
+                        android:id="@+id/linearAuto"
+                        android:layout_width="fill_parent"
+                        android:layout_height="40dp" >
+
+                        <ImageView
+                            android:id="@+id/icon"
+                            android:layout_width="20dp"
+                            android:layout_height="20dp"
+                            android:layout_alignParentLeft="true"
+                            android:layout_centerVertical="true"
+                            android:layout_marginLeft="10dp"
+                            android:src="@drawable/auto_icon" />
+
+                        <ImageView
+                            android:id="@+id/imageFirstArrow"
+                            android:layout_width="20dp"
+                            android:layout_height="20dp"
+                            android:layout_alignParentRight="true"
+                            android:layout_centerVertical="true"
+                            android:layout_marginRight="15dp"
+                            android:background="@drawable/ic_launcher" />
+
+                        <TextView
+                            android:id="@+id/textViewName"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerVertical="true"
+                            android:layout_marginLeft="32dp"
+                            android:layout_toRightOf="@+id/icon"
+                            android:text="AUTOS"
+                            android:textColor="#4B0082"
+                            android:textSize="15sp" />
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:id="@+id/linearAutoCategry"
+                        android:layout_width="fill_parent"
+                        android:layout_height="40dp"
+                        android:layout_below="@+id/linearAuto"
+                        android:background="#000"
+                        android:visibility="gone" >
+                    </RelativeLayout>
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@+id/lytRentalsContainer"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_below="@+id/lytAutoContainer" >
+
+                    <RelativeLayout
+                        android:id="@+id/linearRental"
+                        android:layout_width="fill_parent"
+                        android:layout_height="40dp" >
+
+                        <ImageView
+                            android:id="@+id/rentalicon"
+                            android:layout_width="20dp"
+                            android:layout_height="20dp"
+                            android:layout_alignParentLeft="true"
+                            android:layout_centerVertical="true"
+                            android:layout_marginLeft="10dp"
+                            android:src="@drawable/auto_icon" />
+
+                        <ImageView
+                            android:id="@+id/imageRental"
+                            android:layout_width="20dp"
+                            android:layout_height="20dp"
+                            android:layout_alignParentRight="true"
+                            android:layout_centerVertical="true"
+                            android:layout_marginRight="15dp"
+                            android:background="@drawable/ic_launcher" />
+
+                        <TextView
+                            android:id="@+id/textRental"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerVertical="true"
+                            android:layout_marginLeft="32dp"
+                            android:layout_toRightOf="@+id/rentalicon"
+                            android:text="RENTAL"
+                            android:textColor="#4B0082"
+                            android:textSize="15sp" />
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:id="@+id/linearRentalCategry"
+                        android:layout_width="fill_parent"
+                        android:layout_height="40dp"
+                        android:layout_below="@+id/linearRental"
+                        android:background="#000" >
+                    </RelativeLayout>
+                </RelativeLayout>
+            </RelativeLayout>
+        </ScrollView>
+    </RelativeLayout>
+
+</RelativeLayout>

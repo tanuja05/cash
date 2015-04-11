@@ -1,0 +1,338 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context="${relativePackage}.${activityClass}" >
+
+        <RelativeLayout
+            android:id="@+id/relativeLayout1"
+            android:layout_width="fill_parent"
+            android:layout_height="40dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:background="@drawable/top_bar" >
+
+            <ImageView
+                android:id="@+id/imageView3"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:padding="4dp"
+                android:src="@drawable/back" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="5dp"
+                android:layout_toRightOf="@+id/imageView3"
+                android:text="Cash"
+                android:textColor="#fff"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/imageView1"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="10dp"
+                android:padding="5dp"
+                android:src="@drawable/done_icon" />
+        </RelativeLayout>
+
+        <ScrollView
+            android:id="@+id/scrollCategory"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_below="@+id/relativeLayout1"
+            android:layout_marginLeft="60dp" >
+        </ScrollView>
+
+        <ScrollView
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_below="@+id/relativeLayout1" >
+
+            <RelativeLayout
+                android:id="@+id/relativeLayout"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true" >
+
+                <RelativeLayout
+                    android:id="@+id/relCoverPic"
+                    android:layout_width="fill_parent"
+                    android:layout_height="190dp"
+                    android:layout_alignParentLeft="true"
+                    android:layout_marginBottom="5dp" >
+
+                    <ImageView
+                        android:id="@+id/imgCoverPic"
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:layout_alignParentBottom="true"
+                        android:layout_alignParentTop="true"
+                        android:background="@drawable/ic_launcher"
+                        android:scaleType="fitXY"
+                        android:visibility="invisible" />
+
+                    <ImageView
+                        android:id="@+id/img_select"
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:layout_centerInParent="true"
+                        android:layout_marginLeft="46dp"
+                        android:layout_marginTop="40dp"
+                        android:src="@drawable/add_picture" />
+
+                    <TextView
+                        android:id="@+id/txt_selectimg"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/img_select"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginTop="5dp"
+                        android:gravity="center"
+                        android:text="Add images and Videos"
+                        android:textColor="#4B0082" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@+id/relImages"
+                    android:layout_width="fill_parent"
+                    android:layout_height="75dp"
+                    android:layout_below="@+id/relCoverPic"
+                    android:layout_marginTop="10dp"
+                    android:background="#4b0081"
+                    android:visibility="gone" >
+
+                    <RelativeLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="fill_parent"
+                        android:layout_centerInParent="true" >
+
+                        <ImageView
+                            android:id="@+id/img_first"
+                            android:layout_width="60dp"
+                            android:layout_height="60dp"
+                            android:layout_centerVertical="true"
+                            android:layout_toRightOf="@+id/img_first"
+                            android:src="@drawable/ic_launcher"
+                            android:visibility="gone" />
+
+                        <ImageView
+                            android:id="@+id/img_second"
+                            android:layout_width="60dp"
+                            android:layout_height="60dp"
+                            android:layout_centerVertical="true"
+                            android:layout_marginLeft="69dp"
+                            android:src="@drawable/ic_launcher"
+                            android:visibility="gone" />
+
+                        <ImageView
+                            android:id="@+id/img_third"
+                            android:layout_width="60dp"
+                            android:layout_height="60dp"
+                            android:layout_centerVertical="true"
+                            android:layout_marginLeft="8dp"
+                            android:layout_toRightOf="@+id/img_second"
+                            android:src="@drawable/ic_launcher"
+                            android:visibility="gone" />
+                    </RelativeLayout>
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@+id/relativeLayout3"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_below="@+id/relImages"
+                    android:background="@drawable/text_bg" >
+
+                    <EditText
+                        android:id="@+id/edt_name"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentTop="true"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_marginTop="10dp"
+                        android:ems="10"
+                        android:hint="Name:"
+                        android:textSize="14sp" >
+
+                        <requestFocus />
+                    </EditText>
+
+                    <EditText
+                        android:id="@+id/edt_Price"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/edt_name"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_marginTop="5dp"
+                        android:ems="10"
+                        android:hint="Price:"
+                        android:inputType="number"
+                        android:textSize="14sp" />
+                    
+                    sadfs
+                    
+                    <RelativeLayout
+                        android:id="@+id/relcurency"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/edt_Price" >
+
+                        <EditText
+                            android:id="@+id/edt_pricecurncey"
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_centerVertical="true"
+                            android:layout_marginLeft="5dp"
+                            android:layout_marginRight="2dp"
+                            android:layout_marginTop="5dp"
+                            android:layout_toLeftOf="@+id/img_curency"
+                            android:editable="false"
+                            android:ems="10"
+                            android:hint="Currency"
+                            android:textSize="14sp" />
+
+                        <ImageView
+                            android:id="@+id/img_curency"
+                            android:layout_width="30dp"
+                            android:layout_height="30dp"
+                            android:layout_alignParentRight="true"
+                            android:layout_centerVertical="true"
+                            android:layout_marginRight="5dp"
+                            android:padding="5dp"
+                            android:src="@drawable/category" />
+                    </RelativeLayout>
+                    
+                    
+                    
+                    
+
+                    <RelativeLayout
+                        android:id="@+id/relchange"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/relcurency" >
+
+                        <EditText
+                            android:id="@+id/editText3"
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="5dp"
+                            android:layout_marginTop="5dp"
+                            android:layout_toLeftOf="@+id/textView4"
+                            android:ellipsize="end"
+                            android:ems="10"
+                            android:focusable="false"
+                            android:hint="chandigarh,Indiafdsjgfhk;lkl;kngkjnsdflgkfd;hlgjflghjls"
+                            android:singleLine="true"
+                            android:textSize="14sp" />
+
+                        <TextView
+                            android:id="@+id/textView4"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentRight="true"
+                            android:layout_centerVertical="true"
+                            android:padding="3dp"
+                            android:text="Change"
+                            android:textColor="#4b0082"
+                            android:textSize="14sp" />
+                    </RelativeLayout>
+
+                    <EditText
+                        android:id="@+id/et_description"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/relchange"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_marginTop="5dp"
+                        android:ems="10"
+                        android:hint="Tell us about you item. Add some #hashtag ti help others find it ea"
+                        android:inputType="textMultiLine"
+                        android:textSize="14sp" />
+
+                    <RelativeLayout
+                        android:id="@+id/relcatgry"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/et_description" >
+
+                        <EditText
+                            android:id="@+id/edt_category"
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_centerVertical="true"
+                            android:layout_marginLeft="5dp"
+                            android:layout_marginRight="2dp"
+                            android:layout_marginTop="5dp"
+                            android:layout_toLeftOf="@+id/imgCategory"
+                            android:editable="false"
+                            android:ems="10"
+                            android:hint="Category"
+                            android:textSize="14sp" />
+
+                        <ImageView
+                            android:id="@+id/imgCategory"
+                            android:layout_width="30dp"
+                            android:layout_height="30dp"
+                            android:layout_alignParentRight="true"
+                            android:layout_centerVertical="true"
+                            android:layout_marginRight="5dp"
+                            android:padding="5dp"
+                            android:src="@drawable/category" />
+                    </RelativeLayout>
+
+                    <!-- <RelativeLayout
+                        android:id="@+id/pre_rel"
+                        android:layout_width="fill_parent"
+                        android:layout_height="40dp"
+                        android:layout_alignParentBottom="true"
+                        android:layout_alignParentLeft="true"
+                        android:layout_below="@+id/relcatgry"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_marginTop="5dp"
+                        android:background="@drawable/submi_bg"
+                        android:text="Preview" >
+
+                        <TextView
+                            android:id="@+id/textView3"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerInParent="true"
+                            android:layout_marginLeft="5dp"
+                            android:layout_marginRight="5dp"
+                            android:text="Preview"
+                            android:textColor="#4b0081" />
+
+                        <ImageView
+                            android:id="@+id/imageView2"
+                            android:layout_width="20dp"
+                            android:layout_height="20dp"
+                            android:layout_alignTop="@+id/textView3"
+                            android:layout_marginRight="5dp"
+                            android:layout_toLeftOf="@+id/textView3"
+                            android:src="@drawable/ic_launcher" />
+                    </RelativeLayout> -->
+                </RelativeLayout>
+            </RelativeLayout>
+        </ScrollView>
+    </RelativeLayout>
+
+</ScrollView>

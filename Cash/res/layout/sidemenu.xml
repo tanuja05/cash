@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/listLV"
+    android:layout_width="fill_parent"
+    android:layout_height="match_parent"
+    android:layout_alignParentLeft="true"
+    android:background="#fff"
+    android:gravity="left"
+    android:orientation="vertical"
+    android:visibility="gone" >
+
+    <ScrollView
+        android:id="@+id/scroll"
+        android:layout_width="240dp"
+        android:layout_height="fill_parent"
+        android:layout_gravity="left"
+        android:scrollbars="none" >
+    </ScrollView>
+
+</LinearLayout>

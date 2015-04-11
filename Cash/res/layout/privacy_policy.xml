@@ -1,0 +1,103 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+  android:background="#4B0082" >
+<RelativeLayout
+        android:id="@+id/relativeLayout1"
+        android:layout_width="fill_parent"
+        android:layout_height="40dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:background="#4B0082" >
+
+        <View
+            android:id="@+id/view1"
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:layout_alignParentBottom="true"
+            android:background="#ff00" />
+
+        <ImageView
+            android:id="@+id/img_back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:padding="7dp"
+            android:src="@drawable/back" />
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="2dp"
+            android:layout_toRightOf="@+id/img_back"
+            android:src="@drawable/ic_launcher" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            android:layout_toRightOf="@+id/imageView3"
+            android:text=""
+            android:textColor="#fff"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/textView2"
+            android:layout_centerVertical="true"
+            android:text="Privacy and Policy" 
+            android:textColor="#fff"/>
+
+    </RelativeLayout>
+
+<ScrollView
+    android:id="@+id/scrl"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:scrollbars="none"
+    android:layout_below="@+id/relativeLayout1" >
+
+        <RelativeLayout android:id="@+id/rel"
+            android:layout_height="fill_parent"
+            android:layout_width="wrap_content">
+<TextView
+    android:id="@+id/textView3"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignParentLeft="true"
+   
+    android:layout_margin="7dp"
+    android:text="This Privacy Policy sets out how the Cash mobile application (Cash) and website (www.cashcash.taoday) collect, use, store, share and protect your personal information. By using the Cash app or website you agree to this Privacy Policy and our retention, disclosure and use of your personal information in accordance with this Privacy Policy. If you do not agree with the Privacy Policy then please delete the Cash app or discontinue your use of the cash website."
+    android:textColor="#fff" />
+
+<TextView
+    android:id="@+id/textView4"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignLeft="@+id/textView3"
+    android:layout_below="@+id/textView3"
+    android:layout_marginTop="4dp"
+    android:textColor="#fff"
+    android:text="The data controller of the information is The Third Stone (HK) Limited. \n\n
+• What personal information about cash members do we collect and hold? \n
+ Information you provide us when you register as a member, including your name, mobile phone number, email address, financial information and the like. If you link your Facebook account or another third party site to the cash, we will also obtain the personal information you've provided to the third party site to the extent allowed according to your settings and preferences.\n\n
+ • How we use your personal information? \n
+So that you can access and use the cash app and website;\n
+To get in touch with you by email, SMS message, telephone for customer support or in relation to your use of the cash app or website.\n\n
+• How we use and process your communications within the cash community? \n
+ We will not review your communications to send third party marketing to you or provide them to third parties.\n\n • How do we protect your personal information?\n
+We use both technological and administrative security measures to protect your personal information. We maintain information about you in our business records while you are a user, or it is no longer needed for business, tax or legal purposes.\n\n
+• Complaints and breaches of the Africa Privacy Principles?\n
+ If you believe we have breached the Privacy Act 1988 (Cth) or Australian Privacy Principles please contact us by email at songbianzime@gmail.com with the subject line Complaint and provide details of your complaint.\n\n" />
+</RelativeLayout>
+</ScrollView>
+</RelativeLayout>

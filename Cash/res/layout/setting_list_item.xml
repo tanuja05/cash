@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    
+<RelativeLayout
+    android:id="@+id/setting_item_rel"
+    android:layout_width="fill_parent"
+    android:layout_height="60dp">
+    <TextView 
+        android:id="@+id/setting_item_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:text="Links to Social Network"
+        android:layout_centerVertical="true"
+        android:textColor="#000"
+        android:textSize="15sp"
+        android:typeface="sans"/>
+    
+    <ImageView
+        android:id="@+id/setting_item_img1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="10dp"
+        android:layout_centerVertical="true"
+        android:background="@drawable/fb_login_launcher"
+        android:visibility="gone"/>
+    
+   <ToggleButton
+        android:id="@+id/setting_itemtoggleButton1"
+        android:layout_width="100dp"
+        android:layout_height="30dp"
+        android:layout_centerVertical="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/bgtoggle"
+        android:button="@null"
+        android:textOff=""
+        android:textOn="" />
+   </RelativeLayout>
+</RelativeLayout>

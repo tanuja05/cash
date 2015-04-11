@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.chat_vendre_acheter"
+    android:versionCode="4"
+    android:versionName="1.4" >
+
+    <uses-sdk
+        android:minSdkVersion="11"
+        android:targetSdkVersion="21" />
+
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <!-- Required to show current location -->
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <uses-permission android:name="android.permission.USE_CREDENTIALS" />
+    <uses-permission android:name="com.google.android.c2dm.permission.SEND" />
+    <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES" />
+    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+
+    <permission
+        android:name="com.chat_vendre_acheter.permission.C2D_MESSAGE"
+        android:protectionLevel="signature" />
+
+    <uses-permission android:name="com.chat_vendre_acheter.permission.C2D_MESSAGE" />
+
+    <!-- Required OpenGL ES 2.0. for Maps V2 -->
+    <uses-feature
+        android:glEsVersion="0x00020000"
+        android:required="true" />
+    <!-- android:manageSpaceActivity="com.fw.cash.ManageSpaceActivity" -->
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".LocationActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".AddPostingActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".GridDetailsActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".TestConnect"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".FollowUnfollw"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".MainActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".Settings"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".SignUpActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".SignInActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Profile"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".EditProfile"
+            android:screenOrientation="portrait" >
+        </activity>
+
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+        <meta-data
+            android:name="com.google.android.maps.v2.API_KEY"
+            android:value="AIzaSyDvPCXVRUevAwaNG6KtrC6jNWE8aJ4ElLY" />
+
+        <activity
+            android:name=".Category_Inflate_Activity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".PostPreviewActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".ChatActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".ProductMap"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".SplashScreen"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Facebook_Share" >
+        </activity>
+        <activity android:name=".Google_Plus_Share" >
+        </activity>
+        <activity
+            android:name="com.fw.twitter.TwitterLogin"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.fw.twitter.TwitterShare"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".FullImageActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".ChatFullImage"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".ChatLocationActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <!--
+    <activity
+    android:name="com.chat_vendre_acheter.ManageSpaceActivity"
+    android:screenOrientation="portrait" />
+        -->
+
+        <receiver
+            android:name="com.google.android.gcm.GCMBroadcastReceiver"
+            android:permission="com.google.android.c2dm.permission.SEND" >
+            <intent-filter>
+
+                <!-- Receives the actual messages. -->
+                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+                <!-- Receives the registration id. -->
+                <action android:name="com.google.android.c2dm.intent.REGISTRATION" />
+
+                <category android:name="com.chat_vendre_acheter" />
+            </intent-filter>
+        </receiver>
+
+        <service
+            android:name=".GCMIntentService"
+            android:enabled="true" />
+
+        <activity
+            android:name=".PrivacyPolicyActivity"
+            android:label="@string/title_activity_privacy_policy" >
+        </activity>
+    </application>
+
+</manifest>
