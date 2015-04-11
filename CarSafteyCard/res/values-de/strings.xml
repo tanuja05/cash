@@ -1,0 +1,1785 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Rettungskarten</string>
+
+    <string-array name="company_name">
+        <item>Abarth</item>
+        <item>Alfa Romeo</item>
+        <item>Audi</item>
+        <item>BMW</item>
+        <item>Cadillac</item>
+        <item>Chevrolet</item>
+        <item>Chrysler</item>
+        <item>Citroen</item>
+        <item>Dacia</item>
+        <item>Daihatsu</item>
+        <item>Dethleffs</item>
+        <item>Dodge</item>
+        <item>e-Wolf</item>
+        <item>Fiat</item>
+        <item>Fiat Professional</item>
+        <item>Ford</item>
+        <item>Honda</item>
+        <item>Hyundai</item>
+        <item>Infiniti</item>
+        <item>Isuzu</item>
+        <item>Jaguar</item>
+        <item>Jeep</item>
+        <item>Karabag</item>
+        <item>Kia</item>
+        <item>Lada</item>
+        <item>Lancia</item>
+        <item>Landrover</item>
+        <item>Lexus</item>
+        <item>Luis</item>
+        <item>Maybach</item>
+        <item>Mazda</item>
+        <item>Mercedes Benz</item>
+        <item>Mercedes-Benz-Transporter</item>
+        <item>Mitsubishi</item>
+        <item>Nissan</item>
+        <item>Opel</item>
+        <item>Peugeot</item>
+        <item>Porsche</item>
+        <item>Renault</item>
+        <item>Saab</item>
+        <item>Seat</item>
+        <item>Skoda</item>
+        <item>Smart</item>
+        <item>SsangYong</item>
+        <item>Subaru</item>
+        <item>Suzuki</item>
+        <item>Tesla</item>
+        <item>Think</item>
+        <item>Toyota</item>
+        <item>Volvo</item>
+        <item>VW</item>
+    </string-array>
+    <string-array name="Abarth">
+        <item>500</item>
+        <item>695 Tributo Ferrari</item>
+        <item>Grande Punto</item>
+        <item>Punto Evo</item>
+        <!-- done -->
+
+    </string-array>
+    <string-array name="Alfa_Romeo">
+        <item>147</item>
+        <item>159 Sportwagon</item>
+        <item>159</item>
+        <item>Brera</item>
+        <item>Giulietta</item>
+        <item>GT</item>
+        <item>MITO LPG</item>
+        <item>MITO</item>
+        <item>Spider</item>
+    </string-array>
+    <!-- done -->
+
+    <string-array name="audi">
+        <item>80 Capriolet Baujahr 1991 bis  2000</item>
+        <item>80 S2 Baujahr 1990 bis 1995</item>
+        <item>80 S2 Coupè Baujahr 1988 bis 1996</item>
+        <item>80 S2 RS2 Avant Baujahr 1992 bis 1995</item>
+        <item>100 A6 S6 Avant Baujahr 1991 bis 1997</item>
+        <item>100 A6 S6 Baujahr 1991 bis 1997</item>
+        <item>100 Avant Baujahr 1988 bis 1991</item>
+        <item>100 Baujahr 1988 bis 1991</item>
+        <item>200 Avant Baujahr 1985 bis 1991</item>
+        <item>200 V8 Baujahr 1984 bis 1991</item>
+        <item>A1 e-tron komplett ab Baujahr 2011</item>
+        <item>A1 S1 Baujahr ab 2010</item>
+        <item>A1 S1 Sportback Baujahr ab 2012</item>
+        <item>A2 Baujahr 200 bis 2005</item>
+        <item>A3 (5-Türer) Baujahr 1999  bis 2003</item>
+        <item>A3 Cabriolet Baujahr 2008 bis 2013</item>
+        <item>A3 S3 (3-Türer) Baujahr 1996 bis 2003</item>
+        <item>A3 S3 (3-Türer) Baujahr 2003 bis 2012</item>
+        <item>A3 S3 (3-Türer) Baujahr ab 2012</item>
+        <item>A3 S3 Cabriolet  ab Baujahr 2013</item>
+        <item>A3 S3 Limousine ab Baujahr 2013</item>
+        <item>A3 S3 RS3 Sportback Baujahr 2004 bis 2013</item>
+        <item>A3 S3 Sportback Baujahr ab 2012</item>
+        <item>A3 Sportback e-tron komplett ab Baujahr 2014</item>
+        <item>A3 Sportback g-tron komplett ab Baujahr 2013</item>
+        <item>A4 allroad Baujahr 2009 bis 2012</item>
+        <item>A4 allroad Baujahr ab 2012</item>
+        <item>A4 S4 Avant Baujahr 2001 bis 2005</item>
+        <item>A4 S4 Avant Baujahr 2008 bis 2012</item>
+        <item>A4 S4 Baujahr 1995 bis 2001</item>
+        <item>A4 S4 Baujahr 2001 bis 2005</item>
+        <item>A4 S4 Baujahr 2007 bis 2012</item>
+        <item>A4 S4 Baujahr ab 2012</item>
+        <item>A4 S4 Cabriolet Baujahr 2002 bis 2005</item>
+        <item>A4 S4 RS4 Avant ab Baujahr 2012</item>
+        <item>A4 S4 RS4 Avant Baujahr 1996 bis 2001</item>
+        <item>A4 S4 RS4 Avant Baujahr 2005 bis 2008</item>
+        <item>A4 S4 RS4 Baujahr 2005 bis 2007</item>
+        <item>A4 S4 RS4 Cabriolet Baujahr 2005 bis 2009</item>
+        <item>A5 S5 Cabriolet Baujahr 2009 bis 2011</item>
+        <item>A5 S5 RS5 Baujahr 2007 bis 2011</item>
+        <item>A5 S5 RS5 Baujahr ab 2011</item>
+        <item>A5 S5 RS5 Cabriolet Baujahr ab 2011</item>
+        <item>A5 S5 Sportback Baujahr 2009 bis 2011</item>
+        <item>A5 S5 Sportback Baujahr ab 2011</item>
+        <item>A6 allroad Baujahr 2001 bis 2006</item>
+        <item>A6 allroad Baujahr 2006 bis 2012</item>
+        <item>A6 allroad Baujahr ab 2012</item>
+        <item>A6 hybrid komplett Baujahr ab 2012</item>
+        <item>A6 S6 Baujahr ab 2011</item>
+        <item>A6 S6 RS6 Avant Baujahr 1998 bis 2004</item>
+        <item>A6 S6 RS6 Avant Baujahr 2004 bis 2012</item>
+        <item>A6 S6 RS6 Baujahr 1997 bis 2004</item>
+        <item>A6 S6 RS6 Baujahr 2004 bis 2008</item>
+        <item>A6 S6 RS6 Baujahr 2008 bis 2011</item>
+        <item>A6 S6 RS6 Baujahr ab 2011</item>
+        <item>A7 S7 RS7 Sportback Baujahr ab 2010</item>
+        <item>A8 hybrid komplett Baujahr ab 2012</item>
+        <item>A8 S8 Baujahr 1994 bis 2002</item>
+        <item>A8 S8 Baujahr 2002 bis 2010</item>
+        <item>A8 S8 Baujahr ab 2010</item>
+        <item>Q3 RS Q3 Baujahr ab 2011</item>
+        <item>Q5 hybrid quattro komplett Baujahr ab 2011</item>
+        <item>Q5 SQ5 Baujahr ab 2008</item>
+        <item>Q7 Baujahr ab 2006</item>
+        <item>R8 Baujahr ab 2007</item>
+        <item>R8 Spyder Baujahr ab 2010</item>
+        <item>TT Coupè Baujahr 1998 bis 2006</item>
+        <item>TT Roadster Baujahr 1999 bis 2006</item>
+        <item>TT TTS Coupè Baujahr ab 2014</item>
+        <item>TT TTS TTRS Coupè Baujahr 2006 bis 2014</item>
+        <item>TT TTS TTRS Roadster Baujahr ab 2007</item>
+    </string-array>
+
+    <!-- //done audi -->
+
+    <string-array name="bmw">
+        <item> 1er-Reihe-Active-E-Coupé-Compact Baujahr ab 2011</item>
+        <item> 1er-Reihe-E81-Coupé-Compact Baujahr 2007 bis 2011</item>
+        <item> 1er-Reihe-E82-Coupé-Compact Baujahr 2007 bis 2014</item>
+        <item> 1er-Reihe-E87-Coupé-Compact Baujahr 2004 bis 2011</item>
+        <item> 1er-Reihe-E88-Cabrio Baujahr ab 2007</item>
+        <item> 1er-Reihe-F20-Coupé-Compact Baujahr ab 2011</item>
+        <item> 1er-Reihe-F21-Coupé-Compact Baujahr ab 2012</item>
+        <item> 2er-Reihe-F22-Coupé-Compact Baujahr ab 2014</item>
+        <item> 2er-Reihe-F45-Limousine Baujahr ab 2014</item>
+        <item> 3er-Reihe E46-Compact Baujahr 2001 bis 2004</item>
+        <item> 3er-Reihe-Active-Hybrid-3-F30 Baujahr ab 2012</item>
+        <item> 3er-Reihe-E36-Cabrio Baujahr 1992 bis 1999</item>
+        <item> 3er-Reihe-E36-Compact Baujahr 1994 bis 2000</item>
+        <item> 3er-Reihe-E36-Coupé Baujahr 1990 bis 1999</item>
+        <item> 3er-Reihe-E36-Limousine Baujahr 1990 bis 1999</item>
+        <item> 3er-Reihe-E36-Touring Baujahr 1994 bis 1999</item>
+        <item> 3er-Reihe-E46-Cabrio Baujahr 1998 bis 2006</item>
+        <item> 3er-Reihe-E46-Limousine Baujahr 1997 bis 2005</item>
+        <item> 3er-Reihe-E46-Touring Baujahr 1999 bis 2005</item>
+        <item> 3er-Reihe-E90-Limousine Baujahr 2005 bis 2012</item>
+        <item> 3er-Reihe-E91-Touring Baujahr 2005 bis 2012</item>
+        <item> 3er-Reihe-E92-Coupé-Compact Baujahr 2006 bis 2013</item>
+        <item> 3er-Reihe-E93-Cabrio Baujahr 2006 bis 2014</item>
+        <item> 3er-Reihe-F30-Limousine Baujahr ab 2012</item>
+        <item> 3er-Reihe-F31-Touring Baujahr ab 2012</item>
+        <item> 3er-Reihe-F34 Baujahr ab 2013</item>
+        <item> 3er-Reihe-F80 Baujahr ab 2014</item>
+        <item> 4er-Reihe-F32-Coupé-Compact Baujahr ab 2013</item>
+        <item> 4er-Reihe-F33-Cabrio Baujahr ab 2014</item>
+        <item> 4er-Reihe-F36-Coupé-Compact Baujahr ab 2014</item>
+        <item> 4er-Reihe-F82-Coupé-Compact Baujahr ab 2014</item>
+        <item> 4er-Reihe-F83-Cabrio Baujahr ab 2014</item>
+        <item> 5er-Reihe-Active-Hybrid-5-F10 Baujahr ab 2011</item>
+        <item> 5er-Reihe-E34-Limousine Baujahr 1987 bis 1996</item>
+        <item> 5er-Reihe-E34-Touring Baujahr 1990 bis 1996</item>
+        <item> 5er-Reihe-E39-Limousine Baujahr 1995 bis 2003</item>
+        <item> 5er-Reihe-E39-Touring Baujahr 1996 bis 2003</item>
+        <item> 5er-Reihe-E60 Baujahr 2003 bis 2010</item>
+        <item> 5er-Reihe-E61-Touring Baujahr 2004 bis 2010</item>
+        <item> 5er-Reihe-F07 Baujahr ab 2009</item>
+        <item> 5er-Reihe-F10 Baujahr ab 2010</item>
+        <item> 5er-Reihe-F11-Touring Baujahr ab 2010</item>
+        <item> 6er-Reihe-E63-Coupé-Compact Baujahr 2004 bis 2010</item>
+        <item> 6er-Reihe-E64-Cabrio Baujahr 2004 bis 2010</item>
+        <item> 6er-Reihe-F06-Coupé-Compact Baujahr ab 2012</item>
+        <item> 6er-Reihe-F12-Cabrio Baujahr ab 2011</item>
+        <item> 6er-Reihe-F13-Coupé-Compact Baujahr ab 2011</item>
+        <item> 7er-Reihe-Active-Hybrid-7-F01-F02 Baujahr ab 2012</item>
+        <item> 7er-Reihe-Active-Hybrid-7-F04 Baujahr ab 2010</item>
+        <item> 7er-Reihe-E32 Baujahr 1986 bis 1994</item>
+        <item> 7er-Reihe-E38 Baujahr 1993 bis 2001</item>
+        <item> 7er-Reihe-E65-E66 Baujahr 2001 bis 2008</item>
+        <item> 7er-Reihe-F01-F02 Baujahr ab 2008</item>
+        <item> 8er-Reihe-E31-Coupé-Compact Baujahr 1989 bis 1999</item>
+        <item> 8er-Reihe-Z3-E36-7-Coupé Baujahr 1998 bis 2002</item>
+        <item> 8er-Reihe-Z4-E86-Coupé Baujahr 2006 bis 2008</item>
+        <item> i3 ab Baujahr 2013</item>
+        <item> MINI-E Coupé Baujahr 2008 bis 2009</item>
+        <item> MINI-F55 Baujahr ab 2014</item>
+        <item> MINI-F56 Baujahr ab 2014</item>
+        <item> MINI-R50 Baujahr 2001 bis 2006</item>
+        <item> MINI-R52-Cabrio Baujahr 2004 bis 2008</item>
+        <item> MINI-R53-Cooper S Baujahr 2001 bis 2006</item>
+        <item> MINI-R55-Clubman Baujahr ab 2007</item>
+        <item> MINI-R56 Baujahr 2006 bis 2014</item>
+        <item> MINI-R57-Cabrio Baujahr ab 2008</item>
+        <item> MINI-R58-Coupé Baujahr ab 2011</item>
+        <item> MINI-R59-Roadster Baujahr ab 2011</item>
+        <item> MINI-R60-Countryman Baujahr ab 2010</item>
+        <item> MINI-R61-Paceman Baujahr 2008 bis 2009</item>
+        <item> Motorrad E-Scooter C evolution (K 17, OCO3)</item>
+        <item> X1-E84-SAV Baujahr ab 2009</item>
+        <item> X3-E83-SAV Baujahr 2003 bis 2010</item>
+        <item> X3-F25-SAV Baujahr ab 2010</item>
+        <item> X4-F26-SAV Baujahr ab 2014</item>
+        <item> X5-E53-SAV Baujahr 1999 bis 2006</item>
+        <item> X5-E70-SAV Baujahr 2006 bis 2013</item>
+        <item> X5-F15-SAV Baujahr ab 2013</item>
+        <item> X6-Active-Hybrid-E72-SAV Baujahr ab 2009</item>
+        <item> X6-E71-SAV Baujahr ab 2008</item>
+        <item> Z3-E36-7-Roadster Baujahr 1995 bis 2002</item>
+        <item> Z4-E85-Roadster Baujahr 2002 bis 2008</item>
+        <item> Z4-E89-Roadster Baujahr ab 2009</item>
+        <item> Z8-E52-Roadster Baujahr 2000 bis 2003</item>
+    </string-array>
+
+    <!-- ///Done bmw -->
+    <string-array name="Cadillac">
+        <item>CTS 4-Türer Baujahr ab 2014</item>
+        <item>Escalade SUV Baujahr ab 2014</item>
+    </string-array>
+
+    <!-- donee -->
+    <string-array name="Chevrolet">
+        <item>Aveo Kleinwagen 3-Türer Baujahr ab 2006</item>
+        <item>Aveo Kleinwagen 4-Türer Baujahr ab 2011</item>
+        <item>Aveo Kleinwagen 5-Türer Baujahr ab 2006</item>
+        <item>Aveo Kleinwagen 5-Türer Baujahr ab 2011</item>
+        <item>Camaro Cabrio Baujahr ab 2011</item>
+        <item>Camaro Coupe Baujahr ab 2007</item>
+        <item>Captiva Baujahr ab 2006</item>
+        <item>Captiva Baujahr ab 2011</item>
+        <item>Captiva MY 13 SUV Baujahr ab 2013</item>
+        <item>Corvette Cabrio Baujahr ab 2008</item>
+        <item>Corvette Coupe Baujahr ab 2008</item>
+        <item>Corvette Coupe Baujahr ab 2014</item>
+        <item>Corvette Stingray Cabrio Baujahr ab 2014</item>
+        <item>Cruze Kombi Baujahr ab 2012</item>
+        <item>Cruze Limousine 4-Türer Baujahr ab 2009</item>
+        <item>Cruze Limousine 5-Türer Baujahr ab 2011</item>
+        <item>Epica Limousine 4-Türer Baujahr ab 2006</item>
+        <item>HHR Kombi 4-Türer Baujahr ab 2006</item>
+        <item>Lacetti Limousine 5-Türer Baujahr ab 2004</item>
+        <item>Malibu Limousine 4-Türer Baujahr ab 2011</item>
+        <item>Matiz Kleinwagen Baujahr ab 2005</item>
+        <item>Nubira Kombi Baujahr ab 2004</item>
+        <item>Orlando Kombi Baujahr ab 2011</item>
+        <item>Rezzo Baujahr ab 2000</item>
+        <item>Spark Kleinwagen Baujahr ab 2010</item>
+        <item>Trax SUV Baujahr ab 2013</item>
+        <item>Volt Elektrofahrzeug Baujahr ab 2011</item>
+    </string-array>
+
+    <!-- ///Done -->
+    <string-array name="Citroen">
+        <item> Berlingo B9 Elektrofahrzeug Notfallhandbuch</item>
+        <item> Berlingo Baujahr ab 2008</item>
+        <item> Berlingo First Baujahr bis 2006</item>
+        <item> C1 3- und 5-Türer Baujahr ab 2005</item>
+        <item> C2 Baujahr 2003 bis 2009</item>
+        <item> C3 Baujahr 2002 bis 2009</item>
+        <item> C3 Baujahr ab 2009</item>
+        <item> C3 Picasso Baujahr ab 2009</item>
+        <item> C3 Pluriel Baujahr 2003 bis 2006</item>
+        <item> C4  (3- und 5-Türer) Baujahr ab 2010</item>
+        <item> C4 (3- und 5-Türer) Baujahr 2004 bis 2010</item>
+        <item> C4 Picasso (5- und 7 Sitzer) Baujahr 2006 bis 2013</item>
+        <item> C4 Picasso (5- und 7-Sitzer) Baujahr ab 2013</item>
+        <item> C5 Limousine Baujahr 2001 bis 2008</item>
+        <item> C5 Limousine und Tourer Baujahr ab 2008</item>
+        <item> C5 Tourer Baujahr 2001 bis 2008</item>
+        <item> C6</item>
+        <item> C8 Baujahr 2002 bis 2006</item>
+        <item> C-Crosser Baujahr ab 2007</item>
+        <item> C-Zero Baujahr ab 2010</item>
+        <item> C-Zero-Handbuch zur Rettung von Insassen</item>
+        <item> DS 3 Baujahr ab 2009</item>
+        <item> DS 4 Baujahr ab 2011</item>
+        <item> DS 5 Baujahr ab 2012</item>
+        <item> DS 5 Hybrid Baujahr ab 2012</item>
+        <item> DS 5 Hybrid Rettungsleitfaden Baujahr ab 2012</item>
+        <item> Jumper Baujahr ab 2007</item>
+        <item> Jumpy Baujahr ab 2007</item>
+        <item> Nemo Baujahr ab 2008</item>
+        <item> Xsara Picasso Baujahr ab 2000</item>
+    </string-array>
+
+    <!-- donnne -->
+
+    <string-array name="Dacia">
+        <item>Dokker Typ SD Baujahr ab 2012</item>
+        <item>Duster Typ SD Baujahr ab 2010</item>
+        <item>Lodgy Typ SD Baujahr ab 2012</item>
+        <item>Logan MCV Typ SD Baujahr ab 2007</item>
+        <item>Logan Pick-up Typ SD Baujahr ab 2008</item>
+        <item>Logan Typ SD Baujahr ab 2005</item>
+        <item>Sandero Typ SD Baujahr ab 2008</item>
+        <item>Stepway Typ SD Baujahr ab 2008</item>
+    </string-array>
+    <!-- donnneene -->
+    <string-array name="Daihatsu">
+        <item>Applause (A101) 4-Türer Baujahr 1998 bis 2001</item>
+        <item>Charade (G2) 3-Türer Baujahr 1996 bis 2001</item>
+        <item>Charade (G2) 4-Türer Baujahr 1996 bis 2001</item>
+        <item>Charade (G2) 5-Türer Baujahr 1996 bis 2001</item>
+        <item>Charade (NSP90) 5-Türer Baujahr ab 2011</item>
+        <item>Copen (L880 2-Türer Baujahr 2004 bis 2006</item>
+        <item>Copen (L881) 2-Türer Baujahr ab 2006</item>
+        <item>Cuore (L7) 3-Türer Baujahr 1998 bis 2003</item>
+        <item>Cuore (L7) 5-Türer Baujahr 1998 bis 2003</item>
+        <item>Cuore (L251) 3-Türer Baujahr 2003 bis 2006</item>
+        <item>Cuore (L251) 5-Türer Baujahr 2003 bis 2006</item>
+        <item>Cuore (L276) 5-Türer Baujahr ab 2007</item>
+        <item>Cuore (L501) 3-Türer Baujahr 1995 bis 1998</item>
+        <item>Cuore (L501) 5-Türer Baujahr 1995 bis 1998</item>
+        <item>Grand Move (G3) 5-Türer Baujahr 1998 bis 2003</item>
+        <item>Materia (M4) 5-Türer ab 2007</item>
+        <item>Move (L6 L9) 5-Türer Baujahr 1997 bis 2003</item>
+        <item>Sirion (M1) 5-Türer Baujahr 1998 bis 2005</item>
+        <item>Sirion (M3) 5-Türer Baujahr ab 2005</item>
+        <item>Terios (J1) 5-Türer Baujahr 1997 bis 2005</item>
+        <item>Terios (J2) 5-Türer Baujahr ab 2006</item>
+        <item>Trevis (L651) 5-Türer Baujahr 2006 bis 2009</item>
+        <item>YRV (M2) 5-Türer Baujahr 2000 bis 2005</item>
+    </string-array>
+
+    <!-- done -->
+    <string-array name="Dodge">
+        <item> Caliber Typ PK Baujahr ab 2006</item>
+        <item> Journey Eco Typ JC Baujahr ab 2009</item>
+        <item> Journey Typ JC Baujahr ab 2009</item>
+        <item> Nitro Typ KJ Baujahr ab 2007</item>
+    </string-array>
+    <!-- done -->
+
+    <string-array name="e_Wolf">
+        <item> e-Wolf DELTA 2</item>
+    </string-array>
+    <!-- done -->
+
+    <string-array name="Honda">
+        <item> Accord (4-Türer) Baujahr 2003 bis 2008</item>
+        <item> Accord (4-Türer) Baujahr ab 2008</item>
+        <item> Accord Tourer (5-Türer) Baujahr 2003 bis 2008</item>
+        <item> Accord Tourer (5-Türer) Baujahr ab 2008</item>
+        <item> Civic (3-Türer) Baujahr 2001 bis 2005</item>
+        <item> Civic (3-Türer) Baujahr ab 2007</item>
+        <item> Civic (4-Türer) Baujahr ab 2011</item>
+        <item> Civic (5-Türer) Baujahr 2001 bis 2005</item>
+        <item> Civic (5-Türer) Baujahr 2006 bis 2011</item>
+        <item> Civic (5-Türer) Baujahr ab 2012</item>
+        <item> Civic Hybrid (4-Türer) Baujahr ab 2006</item>
+        <item> Civic Tourer Baujahr ab 2014</item>
+        <item> CR-V (5-Türer) Baujahr 2002 bis 2005</item>
+        <item> CR-V (5-Türer) Baujahr 2005 bis 2006</item>
+        <item> CR-V (5-Türer) Baujahr 2007 bis 2012</item>
+        <item> CR-V (5-Türer) Baujahr ab 2013</item>
+        <item> CR-Z (3-Türer) Baujahr ab 2010</item>
+        <item> FR-V (5-Türer) Baujahr ab 2005</item>
+        <item> Insight (5-Türer) Baujahr ab 2009</item>
+        <item> Jazz (5-Türer) Baujahr 2002 bis 2008</item>
+        <item> Jazz (5-Türer) Baujahr ab 2009</item>
+        <item> Jazz Hybrid (5-Türer) Baujahr ab 2011</item>
+    </string-array>
+    <!-- done -->
+    <string-array name="Infiniti">
+        <item>EX Typ J50 Baujahr ab 2009</item>
+        <item>FX Typ S51 Baujahr ab 2009</item>
+        <item>G Cabrio Typ V36 Baujahr ab 2009</item>
+        <item>G Coupé Typ V36 Baujahr ab 2009</item>
+        <item>G Limousine Typ V36 Baujahr ab 2009</item>
+        <item>M Typ Y51 Baujahr ab 2010</item>
+    </string-array>
+    <!-- done -->
+    <string-array name="Isuzu">
+        <item>D-MAX Double Cab Baujahr 2007 bis 2010</item>
+        <item>D-MAX Single Cab Baujahr 2007 bis 2010</item>
+        <item>D-MAX Single Cab Baujahr ab 2012</item>
+        <item>D-MAX Space Cab Baujahr 2007 bis 2010</item>
+        <item>N-Serie Double Cab Modell Baujahr 2009 bis 2010</item>
+        <item>N-Serie Single Cab Modell Baujahr 2009 bis 2010</item>
+    </string-array>
+    <!-- done -->
+    <string-array name="Jaguar">
+        <item> S-Type Typ CCX Baujahr 1999 bis 2007</item>
+        <item> XF Typ CC9 Baujahr ab 2007</item>
+        <item> XJ Typ N 3 Baujahr 2003 bis 2010</item>
+        <item> XJ Typ NNA Baujahr ab 2010</item>
+        <item> XK Cabriolet Typ QEV Baujahr 1996 bis 2006</item>
+        <item> XK Cabriolet Typ QQ6 Baujahr ab 2006</item>
+        <item> XK Coupé Typ QEV Baujahr 1996 bis 2006</item>
+        <item> XK Coupé Typ QQ6 Baujahr ab 2006</item>
+        <item> X-Type Estate Typ CF1 Baujahr 2004 bis 2009</item>
+        <item> X-Type Saloon Typ CF1 Baujahr 2001 bis 2009</item>
+    </string-array>
+
+    <!-- done -->
+    <string-array name="Jeep">
+        <item> Cherokee Typ KK Baujahr ab 2008</item>
+        <item> Grand Cherokee Typ WH Baujahr ab 2005</item>
+        <item> Patriot ECO+ Typ PK,LPG Baujahr ab 2008</item>
+        <item> Patriot Typ PK Baujahr ab 2008</item>
+        <item> Wrangler Typ JK (3-Türer) Baujahr ab 2006</item>
+        <item> Wrangler Typ JK (5-Türer) Baujahr ab 2006</item>
+    </string-array>
+    <!-- done -->
+    <string-array name="Karabag">
+        <item>FiorinoE</item>
+        <item>new500E</item>
+    </string-array>
+    <!-- done -->
+    <string-array name="Lada">
+        <item> 4x4 BA3-21214</item>
+        <item> Kalina sedan BA3-1118</item>
+        <item> Kalina universal BA3-1117</item>
+        <item> Kalina xetubek BA3-1119</item>
+        <item> Priora sedan BA3-2170</item>
+        <item> Priora universal BA3-2171</item>
+        <item> Priora xetubek BA3-2172</item>
+    </string-array>
+    <!-- done -->
+    <string-array name="Lancia">
+        <item> Delta Tirbo LPG</item>
+        <item> Delta</item>
+        <item> Flavia</item>
+        <item> Musa LPG</item>
+        <item> Musa</item>
+        <item> Phedra</item>
+        <item> Thema</item>
+        <item> Voyager</item>
+        <item> Ypsilon Baujahr ab 2011</item>
+        <item> Ypsilon Baujahr bis 2011</item>
+        <item> Ypsilon LPG</item>
+    </string-array>
+    <!-- done -->
+    <string-array name="Landrover">
+        <item> Discovery Typ LA Baujahr ab 2004</item>
+        <item> Discovery Typ LT Baujahr 1998 bis 2004</item>
+        <item> Freelander Typ LF Baujahr ab 2007</item>
+        <item> Freelander Typ LN Baujahr 1998 bis 2007</item>
+        <item> Range Rover Evoque Typ LV Baujahr ab 2011</item>
+        <item> Range Rover Sport Typ LS Baujahr 2005 bis 2013</item>
+        <item> Range Rover Sport Typ LW Baujahr ab 2013</item>
+        <item> Range Rover TYP LG Baujahr ab 2013</item>
+        <item> Range Rover Typ LM Baujahr 2002 bis 2006</item>
+        <item> Range Rover Typ LM Baujahr 2006 bis 2009</item>
+        <item> Range Rover Typ LM Baujahr 2009 bis 2012</item>
+        <item> Range Rover Typ LP Baujahr 1994 bis 2002</item>
+    </string-array>
+    <!-- done -->
+    <string-array name="Lexus">
+        <item> CT200h Hybrid (5-Türer) Baujahr ab 2010</item>
+        <item> GS300+460 S19a Baujahr ab 2005</item>
+        <item> GS450h HS19a Baujahr ab 2006</item>
+        <item> IS C XE2a Baujahr ab 2009</item>
+        <item> IS XE2a Baujahr ab 2005</item>
+        <item> IS300h XE2a Baujahr ab 2013</item>
+        <item> LS460 F4a Baujahr ab 2006</item>
+        <item> LS600h HF4a Baujahr ab 2007</item>
+        <item> NX300h Hybrid AZ1 (5-Türer) Baujahr ab 2014</item>
+        <item> RC F UXC1 (EU,M) Baujahr ab 2014</item>
+        <item> RX450h AL1 Hybrid (5-Türer) Baujahr ab 2009</item>
+    </string-array>
+    <!-- done -->
+    <string-array name="Luis">
+        <item> 4U</item>
+    </string-array>
+    <!-- done -->
+    <string-array name="Maybach">
+        <item> Limousine Typ 240 Baujahr ab 2002</item>
+    </string-array>
+    <!-- done -->
+    <string-array name="Mazda">
+        <item> 2 DE 3-Türer Baujahr ab 2007</item>
+        <item> 2 DE 5-Türer Baujahr ab 2007</item>
+        <item> 2 DY Baujahr 2003 bis 2007</item>
+        <item> 3 BK 4-Türer Baujahr 2003 bis 2008</item>
+        <item> 3 BK 5-Türer Baujahr 2003 bis 2008</item>
+        <item> 3 BM Limousine Baujahr ab 2013</item>
+        <item> 3 BM SchrÃ¤gheck Baujahr ab 2013</item>
+        <item> 5 CR Baujahr 2005 bis 2010</item>
+        <item> 5 CW Baujahr ab 2010</item>
+        <item> 6 GG 4-Türer Baujahr 2002 bis 2007</item>
+        <item> 6 GG 5-Türer Baujahr 2002 bis 2007</item>
+        <item> 6 GH 4-Türer Baujahr ab 2007</item>
+        <item> 6 GH 5-Türer Baujahr ab 2007</item>
+        <item> 6 GH Kombi Baujahr ab 2007</item>
+        <item> 6 GJ Kombi Baujahr ab 2012</item>
+        <item> 6 GJ Limousine Baujahr ab 2013</item>
+        <item> 6 GY Kombi Baujahr 2002 bis 2007</item>
+        <item> BT-50 UN Baujahr ab 2006</item>
+        <item> CX-5 KE Baujahr ab 2012</item>
+        <item> CX-7 ER Baujahr ab 2007</item>
+        <item> CX-9 TB Baujahr ab 2009</item>
+        <item> MX-5 NC (RHT) Roadster Coupe Baujahr ab 2007</item>
+        <item> MX-5 NC (RHT) Roadster Coupe Baujahr ab 2012</item>
+        <item> MX-5 NC mit Faltverdeck Baujahr ab 2005</item>
+        <item> MX-5 NC mit Faltverdeck Baujahr ab 2012</item>
+        <item> RX-8 Baujahr 2003 bis 2010</item>
+    </string-array>
+    <!-- done -->
+    <string-array name="Mercedes_Benz_Transporter">
+        <item> Citan Kastenwagen Typ 415 Baujahr ab 2012</item>
+        <item> Citan Kombi Baujahr ab 2012</item>
+        <item> Sprinter LGT Typ 906 Baujahr ab 2010</item>
+        <item> Sprinter NGT Typ 901-905 Baujahr 1996 bis 2006</item>
+        <item> Sprinter NGT Typ 906 Baujahr ab 2008</item>
+        <item> Sprinter Typ 901-905 Baujahr 1995 bis 2006</item>
+        <item> Sprinter Typ 906 Baujahr ab 2006</item>
+        <item> Vario Typ 667-670 Baujahr ab 1996</item>
+        <item> Vito E-Cell Elektroantrieb Typ 639 Baujahr ab 2010</item>
+        <item> Vito Viano Typ 639 Baujahr ab 2003</item>
+        <item> V-Klasse Vito Typ 638 Baujahr 1996 bis 2003</item>
+    </string-array>
+    <!-- donee -->
+    <string-array name="Mitsubishi">
+        <item> ASX Baujahr ab 2010</item>
+        <item> Electric Vehicle Baujahr ab 2011</item>
+        <item> L200 Club Cab Baujahr ab 2007</item>
+        <item> L200 Double Cab Baujahr ab 2007</item>
+        <item> L200 Single Cab Baujahr ab 2007</item>
+        <item> Lancer 4-Türer  Baujahr ab 2008</item>
+        <item> Lancer 5-Türer Baujahr ab 2009</item>
+        <item> Outlander Baujahr ab 2013</item>
+        <item> Pajero 3-Türer Baujahr ab 2007</item>
+        <item> Pajero 5-Türer Baujahr ab 2007</item>
+        <item> Plug-in Hybrid Outlander Baujahr ab 2014</item>
+        <item> Space Star Baujahr ab 2013</item>
+    </string-array>
+    <!-- done -->
+    <string-array name="Saab">
+        <item>9-3 (4-Türer) Baujahr ab 2002</item>
+        <item>9-3 Cabrio Baujahr ab 2003</item>
+        <item>9-3 SportCombi Baujahr ab 2005</item>
+        <item>9-5 (4-Türer) Baujahr ab 1997</item>
+        <item>9-5 (4-Türer) Baujahr ab 2005</item>
+        <item>9-5 (4-Türer) Baujahr ab 2010</item>
+        <item>9-5 Kombi (SportCombi) Baujahr ab 1997</item>
+        <item>9-5 Kombi (SportCombi) Baujahr ab 2005</item>
+    </string-array>
+    <!-- done -->
+    <string-array name="Smart">
+        <item> forfour Typ 454 Baujahr 2004 bis 2006</item>
+        <item> fortwo cabrio electric drive Typ 451 (1) Baujahr ab 2009</item>
+        <item> fortwo cabrio electric drive Typ 451 (2) Baujahr ab 2012</item>
+        <item> fortwo cabrio Typ 450  Baujahr 1998 bis  2007</item>
+        <item> fortwo cabrio Typ 451 Baujahr ab 2007</item>
+        <item> fortwo coupé electric drive Typ 451 (1) Baujahr ab 2009</item>
+        <item> fortwo coupé electric drive Typ 451 (2) Baujahr ab 2012</item>
+        <item> fortwo coupé Typ 450 Baujahr 1998 bis 2007</item>
+        <item> fortwo coupé Typ 451 Baujahr ab 2007</item>
+        <item> roadster coupé Typ 452 Baujahr 2003 bis 2005</item>
+        <item> roadster Typ 452 Baujahr 2003 bis 2005</item>
+    </string-array>
+    <!-- done -->
+    <string-array name="SsangYong">
+        <item> Korando Baujahr ab 2010</item>
+        <item> Korando Sports Baujahr ab 2012</item>
+        <item> Rexton W Baujahr ab 2013</item>
+        <item> Rodius Baujahr ab 2013</item>
+    </string-array>
+    <!-- done -->
+    <string-array name="Suzuki">
+        <item>Alto (5-Türer) Baujahr ab 2009</item>
+        <item>Grand Vitara (3-Türer) Baujahr ab 2005</item>
+        <item>Grand Vitara (5-Türer) Baujahr ab 2005</item>
+        <item>Jimny (3-Türer) Baujahr ab 1998</item>
+        <item>Kizashi (4-Türer) Baujahr ab 2010</item>
+        <item>Splash (5-Türer) Baujahr ab 2007</item>      
+        <item>Swift (3-Türer) Baujahr 2005 bis 2010</item>
+        <item>Swift (3-Türer) Baujahr ab 2010</item>
+        <item>Swift (5-Türer) Baujahr 2005 bis 2010</item>
+        <item>Swift (5-Türer) Baujahr ab 2010</item>
+        <item>Swift Sport (3-Türer) Baujahr ab 2011</item>
+        <item>Swift Sport (5-Türer) Baujahr ab 2013</item>
+        <item>SX4 Classic (5-Türer) Baujahr ab 2005</item>
+        <item>SX4 Classic Limousine (4-Türer) Baujahr ab 2005</item>
+        <item>SX4 S-Cross (5-Türer) Baujahr ab 2013</item>
+    </string-array>
+    <!-- done -->
+    <string-array name="Tesla">
+        <item> Model S Baujahr 2012 bis 2013</item>
+        <item> Model S Baujahr ab 2014</item>
+        <item> Roadster Baujahr 2008 bis 2009</item>
+        <item> Roadster Baujahr ab 2010</item>
+    </string-array>
+<!--     done -->
+    <string-array name="Think">
+        <item> City Typ alle Baujahr ab 2008</item>
+    </string-array>
+<!--     done -->
+    <string-array name="Volvo">
+        <item> C30 Baujahr ab 2007</item>
+        <item> C30 Electric Baujahr ab 2011</item>
+        <item> C70 Baujahr ab 2006</item>
+        <item> C70 Cabriolet Baujahr 1998 bis 2005</item>
+        <item> C70 Coupé Baujahr 1998 bis 2003</item>
+        <item> S40 Baujahr 1996 bis 2004</item>
+        <item> S40 Baujahr ab 2004</item>
+        <item> S60 Baujahr 2001 bis 2008</item>
+        <item> S60 Baujahr ab 2010</item>        
+        <item> S60 Bi-Fuel Baujahr 2001 bis 2007</item>
+        <item> S80 Baujahr 1999 bis 2006</item>
+        <item> S80 Baujahr ab 2007</item>
+        <item> S80 Bi-Fuel Baujahr 1999 bis 2006</item>        
+        <item> V40 Baujahr 1996 bis 2004</item>
+        <item> V40 Baujahr ab 2012</item>
+        <item> V50 Baujahr ab 2004</item>
+        <item> V60 Baujahr ab 2010</item>        
+        <item> V60 Plug-in Hybrid Baujahr ab 2012</item>
+        <item> V70 Baujahr 2000 bis 2007</item>
+        <item> V70 Baujahr ab 2007</item>
+        <item> V70 Bi-Fuel Baujahr 2000 bis 2007</item>
+        <item> XC60 Baujahr ab 2009</item>
+        <item> XC70 Baujahr 2000 bis 2007</item>
+        <item> XC70 Baujahr ab 2008</item>
+        <item> XC90 Baujahr ab 2003</item>
+    </string-array>
+<!--     done -->
+    <string-array name="Skoda">
+        <item> Citigo (3-Türer) Baujahr ab 2011</item>
+        <item> Citigo (3-Türer) CNG Baujahr ab 2012</item>
+        <item> Citigo (5-Türer) Baujahr ab 2012</item>
+        <item> Citigo (5-Türer) CNG Baujahr ab 2012</item>       
+        <item> Fabia 1 Baujahr 1999 bis 2007</item>
+        <item> Fabia 2 Baujahr ab 2006</item>
+        <item> Fabia Combi 1 Baujahr 2000 bis 2007</item>
+        <item> Fabia Combi 2 Baujahr ab 2006</item>
+        <item> Fabia Sedan 1 Baujahr 2001 bis 2008</item>
+        <item> Felicia Baujahr 1994 bis 2001</item>
+        <item> Felicia Combi Baujahr 1995 bis 2001</item>       
+        <item> Octavia 2 Baujahr ab 2004</item>
+        <item> Octavia 2 LPG Baujahr ab 2009</item>
+        <item> Octavia 3 Baujahr ab 2012</item>
+        <item> Octavia Baujahr ab 1996</item>
+        <item> Octavia Combi 1 Baujahr ab 2000</item>
+        <item> Octavia Combi 2 Baujahr ab 2004</item>
+        <item> Octavia Combi 2 LPG Baujahr ab 2009</item>
+        <item> Octavia Combi 3 Baujahr ab 2013</item>      
+        <item> Pick up Baujahr 1995 bis 2001</item>
+        <item> Praktik Baujahr ab 2006</item>       
+        <item> Rapid Baujahr ab 2012</item>
+        <item> Rapid Spaceback Baujahr ab 2013</item>
+        <item> Roomster Baujahr ab 2006</item>       
+        <item> Superb 1 Baujahr 2001 bis 2008</item>
+        <item> Superb 2 Baujahr ab 2008</item>
+        <item> Superb Combi 2 Baujahr ab 2009</item>
+        <item> Yeti Baujahr ab 2009</item>
+    </string-array>
+<!--     done -->
+    <string-array name="Subaru">
+        <item> Allgemeiner Hinweis</item>
+        <item> BRZ Baujahr ab 2013</item>
+        <item> Forester Baujahr ab 2009</item>
+        <item> Forester Baujahr ab 2013</item>
+        <item> Forester SH SHS Baujahr ab 2009</item>        
+        <item> Imbreza Baujahr ab 2008</item>       
+<!--         <item> Impreza Baujahr ab 2012</item> -->        
+        <item> Impreza STI Baujahr ab 2008</item>
+        <item> Impreza STI Baujahr ab 2010</item>        
+        <item> Justy Baujahr ab 2008</item>
+        <item> Legacy (1) Baujahr 2004 bis 2009</item>
+        <item> Legacy (2) Baujahr 2004 bis 2009</item>
+        <item> Legacy (4-Türer)  Baujahr ab 2010</item>        
+        <item> Legacy (4-Türer) Baujahr 2004 bis 2009</item>
+        <item> Legacy (5-Türer) Baujahr 2004 bis 2009</item>
+        <item> Legacy (5-Türer) Baujahr ab 2010</item>        
+        <item> Legacy Kombi 2.5l Baujahr ab 2010</item>
+        <item> Legacy Limousine 2.5l Baujahr ab 2010</item>
+        <item> Outback (1) Baujahr 2004 bis 2009</item>
+        <item> Outback (2) Baujahr 2004 bis 2009</item>
+        <item> Outback 2.5l Baujahr ab 2010</item>
+        <item> Outback Baujahr ab 2010</item>
+        <item> Tribeca Baujahr ab 2008</item>
+        <item> WRX STI Baujahr ab 2015</item>
+        <item> XV Baujahr ab 2012</item>
+    </string-array>
+<!--     done -->
+    <string-array name="Porsche">
+        <item>911 Cabriolet-Modelle Baujahr ab 2005</item>
+        <item>911 Cabriolet-Modelle Baujahr ab 2008</item>
+        <item>911 Cabriolet-Modelle Baujahr ab 2012</item>
+        <item>911 Coupé-Modelle Baujahr ab 2005</item>
+        <item>911 Coupé-Modelle Baujahr ab 2007</item>
+        <item>911 Coupé-Modelle Baujahr ab 2012</item>
+        <item>911 GT2 Baujahr ab 2008</item>
+        <item>911 GT2 RS Baujahr ab 2011</item>
+        <item>911 GT3 Baujahr ab 2007</item>
+        <item>911 GT3 Baujahr ab 2014</item>
+        <item>911 GT3 RS Baujahr ab 2007</item>
+        <item>911 Targa Baujahr ab 2007</item>
+        <item>911 Targa Baujahr ab 2014</item>        
+        <item>918 Spyder Baujahr ab 2014</item>
+        <item>Boxster Baujahr ab 2005</item>
+        <item>Boxster Baujahr ab 2012</item>        
+        <item>Cayenne Baujahr 2003 bis 2005</item>
+        <item>Cayenne Baujahr 2006 bis 2010</item>
+        <item>Cayenne Baujahr ab 2011</item>
+        <item>Cayenne Baujahr ab 2015</item>
+        <item>Cayenne S E-Hybrid Baujahr ab 2015</item>
+        <item>Cayenne S-Hybrid Baujahr ab 2011</item>
+        <item>Cayman Baujahr ab 2006</item>
+        <item>Cayman Baujahr ab 2014</item>        
+        <item>Macan Baujahr ab 2014</item>        
+        <item>Panamera Baujahr ab 2010</item>
+        <item>Panamera S E-Hybrid Baujahr ab 2014</item>
+        <item>Panamera S Hybrid Baujahr ab 2011</item>
+    </string-array>
+<!--     done -->
+    <string-array name="Opel">
+        <item>Adam 3-Türer Autogas (LPG) Baujahr ab 2013</item>
+        <item>Adam 3-Türer Baujahr ab 2013</item>
+        <item>Agila - A Baujahr ab 2000</item>
+        <item>Agila - B Autogas (LPG) Baujahr ab 2010</item>
+        <item>Agila - B Baujahr ab 2008</item>
+        <item>Ampera Baujahr ab 2011</item>
+        <item>Antara Baujahr ab 2006</item>
+        <item>Antara Baujahr ab 2011</item>
+        <item>Astra - F 3-Türer Baujahr ab 1991</item>
+        <item>Astra - F Cabrio Baujahr ab 1993</item>
+        <item>Astra - F Classic 4-Türer Baujahr ab 1992</item>
+        <item>Astra - F Classic 5-Türer Baujahr ab 1991</item>
+        <item>Astra - F Classic Kombi (Caravan) Baujahr ab 1991</item>
+        <item>Astra - G 3-Türer Baujahr ab 1998</item>
+        <item>Astra - G Cabrio Baujahr ab 2001</item>
+        <item>Astra - G Classic II 4-Türer Baujahr ab 1998</item>
+        <item>Astra - G Classic II 5-Türer Baujahr ab 1998</item>
+        <item>Astra - G Classic II Kombi (Caravan) Baujahr ab 1998</item>
+        <item>Astra - G Coupe Baujahr ab 2000</item>
+        <item>Astra - G Erdgas (CNG) Baujahr ab 2003</item>
+        <item>Astra - H 3-Türer (GTC) Baujahr ab 2005</item>
+        <item>Astra - H 4-Türer Baujahr ab 2007</item>
+        <item>Astra - H 5-Türer Baujahr ab 2004</item>
+        <item>Astra - H Autogas (LPG) Baujahr ab 2010</item>
+        <item>Astra - H Cabrio (Twin Top) Baujahr ab 2005</item>
+        <item>Astra - H Kombi (Caravan) Baujahr ab 2004</item>
+        <item>Astra - J 3-Türer (GTC) Baujahr ab 2011</item>
+        <item>Astra - J 4-Türer Baujahr ab 2012</item>
+        <item>Astra - J 5-Türer Baujahr ab 2009</item>
+        <item>Astra - J Autogas (LPG) Baujahr ab 2012</item>
+        <item>Astra - J Kombi (Sports Tourer (LPG) Baujahr ab 2012</item>
+        <item>Astra - J Kombi (Sports Tourer) Baujahr ab 2010</item>
+        <item>Calibra Coupé Baujahr ab 1989</item>
+        <item>Cascada Cabrio Baujahr ab 2013</item>
+        <item>Combo - C Erdgas (CNG) Baujahr ab 2005</item>
+        <item>Combo - C Tour Baujahr ab 2001</item>
+        <item>Combo - D (CGN) long wheel base Baujahr ab 2012</item>
+        <item>Combo - D (CGN) short wheel base Baujahr ab 2012</item>
+        <item>Combo - D Tour Baujahr ab 2011</item>
+        <item>Corsa - B 3-Türer Baujahr ab 1993</item>
+        <item>Corsa - B 5-Türer Baujahr ab 1993</item>
+        <item>Corsa - C 3-Türer Baujahr ab 2000</item>
+        <item>Corsa - C 5-Türer Baujahr ab 2000</item>
+        <item>Corsa - D 3-Türer Baujahr ab 2006</item>
+        <item>Corsa - D 5-Türer Baujahr ab 2006</item>
+        <item>Corsa - D Autogas (LPG) Baujahr ab 2010</item>
+        <item>Frontera - A 3-Türer Baujahr ab 1991</item>
+        <item>Frontera - A 5-Türer Baujahr ab 1991</item>
+        <item>Frontera - B 3-Türer Baujahr ab 1998</item>
+        <item>Frontera - B 5-Türer Baujahr ab 1998</item>
+        <item>GT Baujahr ab 2007</item>
+        <item>HydroGen 4 Baujahr ab 2008</item>
+        <item>Insignia 4-Türer Autogas (LPG) Baujahr 2012 bis 2013</item>
+        <item>Insignia 4-Türer Baujahr 2008 bis 2013</item>
+        <item>Insignia 5-Türer Autogas (LPG) Baujahr 2012 bis 2013</item>
+        <item>Insignia 5-Türer Baujahr 2008 bis 2013</item>
+        <item>Insignia Kombi (Sports Tourer) Baujahr 2008 bis 2013</item>
+        <item>Insignia Kombi (Sports Tourer) LPG Baujahr 2012 bis 2013</item>
+        <item>Meriva - A Autogas (LPG) Baujahr ab 2010</item>
+        <item>Meriva - A Baujahr ab 2003</item>
+        <item>Meriva - B Autogas (LPG) Baujahr 2012 bis 2014</item>
+        <item>Meriva - B Baujahr 2010 bis 2014</item>
+        <item>Mokka SUV (LPG) Baujahr ab 2014</item>
+        <item>Mokka SUV Baujahr ab 2012</item>
+        <item>Movano n03 Baujahr ab 2003</item>
+        <item>Movano n10 Baujahr ab 2010</item>
+        <item>Movano n98 Baujahr ab 1998</item>
+        <item>Omega - B 4-Türer Baujahr ab 1994</item>
+        <item>Omega - B Kombi (Caravan) Baujahr ab 1994</item>
+        <item>Signum Baujahr ab 2003</item>
+        <item>Sintra Baujahr ab 1996</item>
+        <item>Speedster VX220 Baujahr ab 2000</item>
+        <item>Tigra - A Coupé Baujahr ab 1994</item>
+        <item>Tigra - B Cabrio (Twin Top) Baujahr ab 2004</item>
+        <item>Vectra - B 4-Türer Baujahr ab 1995</item>
+        <item>Vectra - B 5-Türer Baujahr ab 1995</item>
+        <item>Vectra - B Kombi (Caravan) Baujahr ab 1996</item>
+        <item>Vectra - C 4-Türer Baujahr ab 2002</item>
+        <item>Vectra - C 5-Türer Baujahr ab 2002</item>
+        <item>Vectra - C Kombi (Caravan) Baujahr ab 2002</item>
+        <item>Vivaro - A Baujahr ab 2001</item>
+        <item>Zafira - A Baujahr ab 1999</item>
+        <item>Zafira - A Erdgas (CNG) Baujahr ab 2001</item>
+        <item>Zafira - B Autogas (LPG) Baujahr ab 2010</item>
+        <item>Zafira - B Baujahr ab 2005</item>
+        <item>Zafira - B Erdgas (CNG) Baujahr ab 2005</item>
+        <item>Zafira - C Autogas (LPG) Baujahr ab 2012</item>
+        <item>Zafira - C Baujahr ab 2011</item>
+        <item>Zafira - C Erdgas (CGN) Baujahr ab 2012</item>
+    </string-array>
+    <!-- done -->
+    <string-array name="Ford">
+        <item>B-MAX Baujahr ab 2012</item>
+        <item>B-MAX LPG Baujahr ab 2013</item>
+        <item>C-MAX Baujahr 2003 bis 2007</item>
+        <item>C-MAX Baujahr 2007 bis 2010</item>
+        <item>C-MAX Baujahr ab 2010</item>
+        <item>C-MAX CNG Baujahr 2003 bis 2007</item>
+        <item>C-MAX CNG Baujahr 2007 bis 2010</item>
+        <item>C-MAX Grand MAV (5+2-Sitzer) Baujahr ab 2010</item>
+        <item>C-MAX LPG Baujahr 2003 bis 2007</item>
+        <item>C-MAX LPG Baujahr 2007 bis 2010</item>
+        <item>C-MAX LPG Kompakt-MAV (5-Sitzer) Baujahr ab 2012</item>
+        <item>Eco Sport Baujahr ab 2013</item>
+        <item>Fiesta (3-Türer) Baujahr 2001 bis 2008</item>
+        <item>Fiesta (3-Türer) Baujahr ab 2008</item>
+        <item>Fiesta (5-Türer) Baujahr 2001 bis 2008</item>
+        <item>Fiesta (5-Türer) Baujahr ab 2008</item>
+        <item>Fiesta Baujahr 1996 bis 2000</item>
+        <item>Fiesta Baujahr 2000 bis 2002</item>
+        <item>Fiesta LPG (3-Türer) Baujahr ab 2008</item>
+        <item>Fiesta LPG (5-Türer) Baujahr ab 2008</item>
+        <item>Focus (3-Türer) Baujahr 1998 bis 2004</item>
+        <item>Focus (3-Türer) Baujahr 2004 bis 2007</item>
+        <item>Focus (3-Türer) Baujahr 2007 bis 2011</item>
+        <item>Focus (4-Türer) Baujahr 1998 bis 2004</item>
+        <item>Focus (4-Türer) Baujahr 2004 bis 2007</item>
+        <item>Focus (4-Türer) Baujahr 2007-2011</item>
+        <item>Focus (4-Türer) Baujahr ab 2011</item>
+        <item>Focus (5-Türer) Baujahr 1998 bis 2004</item>
+        <item>Focus (5-Türer) Baujahr 2004 bis 2007</item>
+        <item>Focus (5-Türer) Baujahr 2007 bis 2011</item>
+        <item>Focus (5-Türer) Baujahr ab 2011</item>
+        <item>Focus Cabrio Baujahr 2007 bis 2010</item>
+        <item>Focus CNG (3-Türer) Baujahr 2004 bis 2007</item>
+        <item>Focus CNG (3-Türer) Baujahr 2007 bis 2011</item>
+        <item>Focus CNG (5-Türer) Baujahr 2004 bis 2007</item>
+        <item>Focus CNG (5-Türer) Baujahr 2007 bis 2011</item>
+        <item>Focus E=lektrik</item>
+        <item>Focus LPG (3-Türer) Baujahr 2004 bis 2007</item>
+        <item>Focus LPG (5-Türer) Baujahr 2004 bis 2007</item>
+        <item>Focus LPG (5-Türer) Baujahr 2007 bis 2011</item>
+        <item>Focus LPG (5-Türer) Baujahr ab 2012</item>
+        <item>Focus LPG Turnier Baujahr 2004 bis 2007</item>
+        <item>Focus LPG Turnier Baujahr 2007 bis 2011</item>
+        <item>Focus LPG Turnier Baujahr ab 2012</item>
+        <item>Focus Turnier Baujahr 1998 bis 2004</item>
+        <item>Focus Turnier Baujahr 2004 bis 2007</item>
+        <item>Focus Turnier Baujahr 2007 bis 2011</item>
+        <item>Focus Turnier Baujahr ab 2011</item>
+        <item>Fusion Baujahr ab 2002</item>
+        <item>Galaxy Baujahr 200 bis 2006</item>
+        <item>Galaxy Baujahr ab 2006</item>
+        <item>KA Baujahr 1996 bis 2008</item>
+        <item>KA Baujahr ab 2008</item>
+        <item>Kuga Baujahr 2008 bis 2012</item>
+        <item>Kuga Baujahr ab 2012</item>
+        <item>Mondeo (4-Türer) Baujahr 2000 bis 2007</item>
+        <item>Mondeo (4-Türer) Baujahr ab 2007</item>
+        <item>Mondeo (5-Türer) Baujahr 2000 bis 2007</item>
+        <item>Mondeo (5-Türer) Baujahr ab 2007</item>
+        <item>Mondeo LPG (4-Türer) Baujahr ab 2007</item>
+        <item>Mondeo LPG (5-Türer) Baujahr ab 2007</item>
+        <item>Mondeo LPG Turnier Baujahr ab 2007</item>
+        <item>Mondeo Turnier Baujahr 2000 bis 2007</item>
+        <item>Mondeo Turnier Baujahr ab 2007</item>
+        <item>Ranger Baujahr 2006 bis 2011</item>
+        <item>Ranger Baujahr ab 2011</item>
+        <item>S-MAX Baujahr ab 2006</item>
+        <item>Streetka Cabrio Baujahr 2003 bis 2005</item>
+        <item>Tourneo Connect Baujahr 2002 bis 2013</item>
+        <item>Tourneo Connect Baujahr ab 2013</item>
+        <item>Tourneo Courier Baujahr ab 2014</item>
+        <item>Tourneo Custom Baujahr ab 2012</item>
+        <item>Transit Tourneo Baujahr ab 2007</item>
+    </string-array>
+    <!-- done -->
+    <string-array name="Chrysler">
+        <item>300 C Typ LX 4 Baujahr ab 2005</item>
+        <item>300 C Typ LX 5 Baujahr ab 2005</item>
+        <item>Grand Voyager Typ RT Baujahr ab 2007</item>
+        <item>Sebring Typ JS Baujahr ab 2007 </item>
+    </string-array>
+    <!-- done -->
+    <string-array name="Hyundai">
+        <item>Accent (3-Türer) Baujahr 2000 bis 2006</item>
+        <item>Accent (3-Türer) Baujahr 2006 bis 2009</item>
+        <item>Accent (4-Türer) Baujahr 2006 bis 2009</item>
+        <item>Accent (5-Türer) Baujahr 2000 bis 2006</item>
+        <item>Atos (5-Türer) Baujahr 1998 bis 2008</item>
+               <item>Coupe (2-Türer) Baujahr 2002 bis 2006</item>
+        <item>Coupe (2-Türer) Baujahr 2006 bis 2010</item>        
+        <item>Elantra (4-Türer) Baujahr 2000 bis 2005</item>
+        <item>Elantra (5-Türer) Baujahr 2000 bis 2005</item>       
+        <item>Genesis Coupe (2-Türer) Baujahr ab 2011</item>
+        <item>Getz (3-Türer) Baujahr 2002 bis 2008</item>
+        <item>Getz (5-Türer) Baujahr 2002 bis 2008</item>
+        <item>Grandeur (4-Türer) Baujahr ab 2005</item>       
+        <item>H-1 Baujahr 1998 bis 2007</item>
+        <item>H-1 Baujahr ab 2008</item>       
+        <item>i10 (5-Türer) Baujahr 2008 bis 2010</item>
+        <item>i10 (5-Türer) Baujahr 2011 bis 2014</item>
+        <item>i10 (5-Türer) Baujahr ab 2014</item>
+        <item>i20 (3-Türer) Baujahr ab 2008</item>
+        <item>i20 (5-Türer) Baujahr ab 2008</item>
+        <item>i30 (5-Türer) Baujahr 2008 bis 2012</item>
+        <item>i30 (5-Türer) Baujahr ab 2012</item>
+        <item>i30 Coupe Baujahr ab 2013</item>
+        <item>i30cw Baujahr 2008 bis 2012</item>
+        <item>i30cw Baujahr ab 2012</item>       
+        <item>i40 (4-Türer) Baujahr ab 2012</item>
+        <item>i40cw Baujahr ab 2011</item>
+        <item>ix20 (5-Türer) Baujahr ab 2010</item>
+        <item>ix35 (5-Türer) Baujahr 2010 bis 2013</item>
+        <item>ix35 (5-Türer) Baujahr ab 2013</item>
+        <item>ix35 FCEV (5-Türer) Baujahr ab 2013</item>
+        <item>ix55 (5-Türer) Baujahr ab 2009</item>
+        <item>Matrix (5-Türer) Baujahr 2002 bis 2010</item>        
+        <item>Santa Fe (5-Türer) Baujahr 2000 bis 2006</item>
+        <item>Santa Fe (5-Türer) Baujahr 2006 bis 2012</item>
+        <item>Santa Fe (5-Türer) Baujahr ab 2012</item>
+        <item>Sonata (4-Türer) Baujahr 1998 bis 2001</item>
+        <item>Sonata (4-Türer) Baujahr 2001 bis 2005</item>
+        <item>Sonata (4-Türer) Baujahr ab 2005</item>        
+        <item>Terracan (5-Türer) Baujahr 2001 bis 2006</item>
+        <item>Trajet (5-Türer) Baujahr 2000 bis 2008</item>
+        <item>Tucson (5-Türer) Baujahr 2004 bis 2010</item>       
+        <item>Veloster (4-Türer) Baujahr ab 2011</item>
+        <item>XG (4-Türer) Baujahr 1999 bis 2005</item>
+    </string-array>
+<!--     done -->
+    <string-array name="Kia">
+        <item>Carens (RP) Baujahr ab 2013</item>
+        <item>Carens (UN) Baujahr 2006 bis 2013</item>
+        <item>Carnival (GQ) Baujahr 1999 bis 2006</item>
+        <item>Carnival (VQ) Baujahr ab 2006</item>      
+        <item>ced_sw (ED) Sporty Wagon Baujahr 2007 bis 2012</item>
+        <item>Cee`d_sw (JD) 5-Türer Baujahr ab 2012</item>       
+        <item>ceend (ED) 5-Türer Baujahr 2007 bis 2012</item>
+        <item>ceend_sw (JD) Sportwagon Baujahr ab 2012</item>        
+        <item>Cerato (LD) 5-Türer Baujahr 2004 bis 2007</item>
+        <item>Cerato (LD) Baujahr 2004 bis 2008</item>       
+        <item>Magentis (MG) Baujahr ab 2006</item>      
+        <item>Opirus (GH) Baujahr ab 2003</item>
+        <item>Optima (TF) Baujahr ab 2012</item>
+        <item>Optima Hybrid (TF) Baujahr ab 2012</item>      
+        <item>Picanto (SA) Baujahr 2004 bis 2011</item>
+        <item>Picanto (TA) 3-Türer Baujahr ab 2011</item>
+        <item>Picanto (TA) 5-Türer Baujahr ab 2011</item>
+        <item>Picanto LPG (TA) 3-Türer Baujahr ab 2011</item>
+        <item>Picanto LPG (TA) 5-Türer Baujahr ab 2011</item>     
+        <item>pro_ceend (ED) 3-Türer Baujahr 2008 bis 2012</item>
+        <item>pro_ceend (JD) 3-Türer Baujahr ab 2013</item>     
+		  <item>Rio (JB) Baujahr 2005 bis 2011</item>
+        <item>Rio (UB) 3-Türer Baujahr ab 2011</item>
+        <item>Rio (UB) 5-Türer Baujahr ab 2011</item>       
+        <item>Sorento (BL) Baujahr 2002 bis 2006</item>
+        <item>Sorento (BL) Baujahr 2006 bis 2009</item>
+        <item>Sorento (XM) Baujahr ab 2009</item>
+        <item>Soul (AM) Baujahr ab 2009</item>
+        <item>Sportage (KM,JES) Baujahr 2004 bis 2010</item>
+        <item>Sportage (SL) Baujahr ab 2010</item>       
+        <item>Venga (YN) Baujahr ab 2010</item>
+    </string-array>
+<!--     done -->
+    <string-array name="Mercedes_Benz">
+        <item>190 Limousine Typ 201 Baujahr 1982 bis 1993</item>
+        <item>A-Klasse Coupé Typ 169 Baujahr ab 2004</item>
+        <item>A-Klasse E-Cell Limousine Typ 169 Baujahr ab 2010</item>
+        <item>A-Klasse Limousine Typ 168 Baujahr 1997 bis 2004</item>
+        <item>A-Klasse Limousine Typ 169 Baujahr ab 2004</item>
+        <item>A-Klasse Limousine Typ 176 Baujahr ab 2012</item>
+        <item>Amigo Sprinter (Baureihe 901-905) Baujahr bis 2006</item>
+        <item>Amigo Sprinter (Baureihe 906) Baujahr ab 2006</item>
+        <item>B-Klasse F-Cell Limousine Typ 245 Baujahr ab 2010</item>
+        <item>B-Klasse Limousine Typ 245 Baujahr 2005 bis 2011</item>
+        <item>B-Klasse NGT Limousine Typ 245 Baujahr ab 2005</item>
+        <item>B-Klasse-NaturalCasDrive-Typ242 ab Baujahr 2013</item>
+        <item>Citan Kombi Typ 415 Baujahr ab 2012</item>
+        <item>C-Klasse Coupé Typ 204 Baujahr ab 2011</item>
+        <item>C-Klasse Limousine Typ 202 Baujahr 1993 bis 2001</item>
+        <item>C-Klasse Limousine Typ 203 Baujahr 2000 bis 2007</item>
+        <item>C-Klasse Limousine Typ 204 Baujahr ab 2007</item>
+        <item>C-Klasse Sportcoupé Typ 203 Baujahr 2000 bis 2008</item>
+        <item>C-KLasse T-Modell Typ 202 Baujahr 1996 bis 2001</item>
+        <item>C-KLasse T-Modell Typ 203 Baujahr 2001 bis 2007</item>
+        <item>C-KLasse T-Modell Typ 204 Baujahr ab 2007</item>
+        <item>CLA-Klasse-coupe-Typ117 Baujahr ab 2013</item>
+        <item>CLC-Klasse Coupé Typ 203 ab Baujahr 2008</item>
+        <item>CLK-Klasse Cabriolet Typ 208 Baujahr 1997 bis 2002</item>
+        <item>CLK-Klasse Cabriolet Typ 209 Baujahr 2003 bis 2009</item>
+        <item>CLK-Klasse Coupé Typ 208 Baujahr 1997 bis 2002</item>
+        <item>CLK-Klasse Coupé Typ 209 Baujahr 2002 bis 2009</item>
+        <item>CL-Klasse Coupé Typ 215 Baujahr 1999 bis 2006</item>
+        <item>CL-Klasse Coupé Typ 216 Baujahr ab 2006</item>
+        <item>CLS-Klasse Coupé Typ 218 Baujahr ab 2010</item>
+        <item>CLS-Klasse Coupé Typ 219 Baujahr 2004 bis 2009</item>
+        <item>CLS-Klasse Shooting Break Typ 218 Baujahr ab 2012</item>
+        <item>Corona Sprinter (Baureihe 901-905) Baujahr bis 2006</item>
+        <item>Corona Sprinter (Baureihe 906) Baujahr ab 2006</item>
+        <item>Cosmo Sprinter (Baureihe 901-905) Baujahr bis 2006</item>
+        <item>Cosmo Sprinter (Baureihe 906) Baujahr ab 2006</item>
+        <item>Duo (Baureihe 901-905) Baujahr bis 2006</item>
+        <item>Duo Independent Sprinter (Baureihe 906) Baujahr ab 2006</item>
+        <item>Duo Sprinter (Baureihe 906) Baujahr ab 2006</item>
+        <item>E-Klasse Cabriolet Typ 124 Baujahr 1987 bis 1997</item>
+        <item>E-Klasse Cabriolet Typ 207 Baujahr ab 2010</item>
+        <item>E-Klasse Coupé Typ 123 Baujahr 1977 bis 1985</item>
+        <item>E-Klasse Coupé Typ 124 Baujahr 1987 bis 1997</item>
+        <item>E-Klasse Coupé Typ 207 Baujahr ab 2009</item>
+        <item>E-Klasse Hybrid Limousine Typ 212 Baujahr ab 2012</item>
+        <item>E-Klasse Limousine Typ 123 Baujahr 1975 bis 1986</item>
+        <item>E-Klasse Limousine Typ 124 Baujahr 1984 bis 1995</item>
+        <item>E-Klasse Limousine Typ 210 Baujahr 1995 bis 2002</item>
+        <item>E-Klasse Limousine Typ 211 Baujahr 2002 bis 2009</item>
+        <item>E-Klasse Limousine Typ 212 (1) Baujahr ab 2009</item>
+        <item>E-Klasse Limousine Typ 212 (2) Baujahr ab 2013</item>
+        <item>E-Klasse NGT Limousine Typ 211 Baujahr 2004 bis 2009</item>
+        <item>E-Klasse NGT Limousine Typ 212 Baujahr ab 2010</item>
+        <item>E-KLasse T-Modell Typ 123 Baujahr 1977 bis 1986</item>
+        <item>E-KLasse T-Modell Typ 124 Baujahr 1984 bis 1996</item>
+        <item>E-KLasse T-Modell Typ 210 Baujahr 1996 bis 2003</item>
+        <item>E-KLasse T-Modell Typ 211 Baujahr 2003 bis 2009</item>
+        <item>E-KLasse T-Modell Typ 212 (1) Baujahr ab 2009</item>
+        <item>E-Klasse T-Modell Typ 212 (2) Baujahr ab 2013</item>
+        <item>E-Klasse Typ 212 Baujahr ab 2013</item>
+        <item>E-Klasse-Cabrio Typ 207 Baujahr ab 2013</item>
+        <item>E-Klasse-Coupé Typ 207 Baujahr ab 2013</item>
+        <item>G-Klasse Geländewagen Typ 463 Baujahr ab 1990</item>
+        <item>GLK-Klasse Geländewagen Typ 204 Baujahr ab 2008</item>
+        <item>GL-Klasse Geländewagen Typ 164 Baujahr ab 2006</item>
+        <item>GL-Klasse Geländewagen Typ 166 Baujahr ab 2012</item>
+        <item>Independent mit Gasanlage Sprinter (Baureihe 906) Baujahr ab 2006</item>
+        <item>Independent ohne Gasanlage Sprinter (Baureihe 906) Bauhjahr ab 2006</item>
+        <item>Korsika Sprinter (Baureihe 901-905) Baujahr bis 2006</item>
+        <item> Luxor Sprinter (Baureihe 906) Baujahr ab 2006</item>
+        <item>Maybach Limousine Typ 240 Baujahr ab 2002</item>
+        <item>M-Klasse Geländewagen Typ 163 Baujahr 1997 bis 2005</item>
+        <item>M-Klasse Geländewagen Typ 164 Baujahr 2005 bis 2011</item>
+        <item>M-Klasse Geländewagen Typ 166 Baujahr ab 2011</item>
+        <item>M-Klasse Hybrid Geländewagen Typ 164 Baujahr ab 2009</item>
+        <item>R-Klasse Van Typ 251Baujahr ab 2005</item>
+        <item>Rondo L Sprinter (Baureihe 906) Baujahr ab 2006</item>
+        <item>Rondo Sprinter (Baureihe 901-905) Baujahr bis 2006</item>
+        <item>Rondo Sprinter (Baureihe 906) Baujahr ab 2006</item>
+        <item>Rondo XL Sprinter (Baureihe 901-905) Baujahr bis 2006</item>
+        <item>Rondo XL Sprinter (Baureihe 906) Baujahr ab 2006</item>
+        <item>S-Klasse Coupé Typ 126 Baujahr 1981 bis 1991</item>
+        <item>S-Klasse Coupé Typ 140 Baujahr 1992 bis 1998</item>
+        <item>S-Klasse Hybrid Limousine Typ 221 Baujahr ab 2009</item>
+        <item>S-Klasse Hybrid Typ 222 Baujahr ab 2013</item>
+        <item>S-Klasse Limousine Typ 116 Baujahr 1972 bis 1980</item>
+        <item>S-Klasse Limousine Typ 126 Baujahr 1979 bis 1991</item>
+        <item>S-Klasse Limousine Typ 140 Baujahr 1991 bis 1998</item>
+        <item>S-Klasse Limousine Typ 220 Baujahr 1998 bis 2005</item>
+        <item>S-Klasse Limousine Typ 221 Baujahr ab 2005</item>
+        <item>S-Klasse Pullman Limousine Typ 140 Baujahr 1996 bis 2000</item>
+        <item>S-Klasse Pullman Limousine Typ 220 Baujahr 2000 bis 2005</item>
+        <item>S-Klasse Typ 222 Baujahr ab 2013</item>
+        <item>SLC-Klasse Coupé Typ 107 Baujahr 1971 bis 1989</item>
+        <item>SLK-Klasse Roadster Typ 170 Baujahr 1996 bis 2004</item>
+        <item>SLK-Klasse Roadster Typ 171 Baujahr 2004 bis 2011</item>
+        <item>SLK-Klasse Roadster Typ 172 Baujahr ab 2011</item>
+        <item>SL-Klasse Roadster Typ 107 Baujahr 1971 bis 1989</item>
+        <item>SL-Klasse Roadster Typ 129 Baujahr 1989 bis 2001</item>
+        <item>SL-Klasse Roadster Typ 230 Baujahr ab 2001</item>
+        <item>SLR McLaren Typ 199 Baujahr 2004 bis 2009</item>
+        <item>SL-Roadster Typ 231 Baujahr ab 2012</item>
+        <item>SLS AMG Coupé electric drive Typ 197 Baujahr ab 2013</item>
+        <item>SLS AMG Roadster Typ 197 Baujahr ab 2011</item>
+        <item>SLS AMG Typ 197 Baujahr ab 2010</item>
+        <item>Sprinter JAMES COOK Westfalia Typ 901-905 Baujahr 1995 bis 2006</item>
+        <item>Sprinter JAMES COOK Westfalia Typ 906 Baujahr ab 2006</item>
+        <item>Vaneo Typ 414 Baujahr 2002 bis 2005</item>
+        <item>Viano FUN Typ 639 Baujahr ab 2003</item>
+        <item>Viano MARCO POLO Westfalia Typ 639 Baujahr ab 2003</item>
+        <item>Viano Vito Van Typ 639 Baujahr ab 2003</item>
+        <item>V-Klasse Vito Typ 638 Baujahr 1996 bis 2003</item>
+    </string-array>
+    <!-- done -->
+    <string-array name="Fiat_Professional">
+        <item> Doblon  (1) Baujahr ab 2010_red</item>
+<!--         <item>Doblon  (2) Baujahr ab 2010_brown</item> -->
+        <item>Doblon (223) Baujahr bis 2009</item>
+<!--         <item>Doblon (223) Natural Power   Baujahr bis 2009_blue</item> -->
+<!--         <item>Doblon (223) Natural Power (2) Baujahr bis 2009</item> -->
+        <item>Doblon Natural Power (1) Baujahr ab 2010</item>
+<!--         <item>Doblon Natural Power (2) Baujahr ab 2010</item> -->
+<!--         <item>Doblon Natural Power (3) Baujahr ab 2010</item> -->
+        <item>Ducato (1)</item>
+        <item>Ducato (2)</item>
+        <item>Ducato (3)</item>
+        <item>Ducato Natural Power</item>
+        <item>Fiorino Baujahr ab 2008</item>
+        <item>Fiorino Natural Power Baujahr ab 2008</item>
+        <item>Scudo</item>
+        <item>Strada</item>
+    </string-array>
+    
+    <string-array name="Fiat">
+        <item>500</item>
+        <item>500L</item>
+        <item>Bravo LPG</item>
+        <item>Bravo</item>
+        <item>Croma</item>
+        <item>Doblon Natural Power</item>
+        <item>Doblon(223) Natural Power</item>
+        <item>Doblon</item>
+        <item>Freemont</item>
+        <item>Grande Punto 3-Türer</item>
+        <item>Grande Punto 5-Türer</item>
+        <item>Grande Punto LPG 3-Türer</item>
+        <item>Grande Punto LPG 5-Türer</item>
+        <item>Grande Punto Natural Power 3-Türer</item>
+        <item>Grande Punto Natural Power 5-Türer</item>
+        <item>Idea LPG</item>
+        <item>Idea</item>
+        <item>Linea</item>
+        <item>Multipla Natural Power</item>
+        <item>Multipla</item>
+        <item>Nuova Panda</item>
+        <item>Panda LPG</item>
+        <item>Panda Natural Power</item>
+        <item>Panda</item>
+        <item>Punto Classic 3-Türer</item>
+        <item>Punto Classic 5-Türer</item>
+        <item>Punto Classic LPG 3-Türer</item>
+        <item>Punto Classic LPG 5-Türer</item>
+        <item>Punto Classic Natural Power 3-Türer</item>
+        <item>Punto Classic Natural Power 5-Türer</item>
+        <item>Punto Evo 3-Türer</item>
+        <item>Punto Evo 5-Türer</item>
+        <item>Punto Evo LPG 3-Türer</item>
+        <item>Punto Evo LPG 5-Türer</item>
+        <item>Punto Evo Natural Power 3-Türer</item>
+        <item>Punto Evo Natural Power 5-Türer</item>
+        <item>Qubo Natural Power</item>
+        <item>Qubo</item>
+        <item>Sedici</item>
+        <item>Stilo 3-Türer</item>
+        <item>Stilo 5-Türer</item>
+        <item>Stilo Multiwagon</item>
+        <item>Ulysse</item>
+    </string-array>
+
+    <!-- donnneee -->
+    <string-array name="VW">
+        
+        <item>A03 Stufenheck Baujahr ab 1994</item>
+        <item>Amarok (2-Türer) Baujahr ab 2011</item>
+        <item>Amarok (4-Türer) Baujahr ab 2010</item>
+        <item>Apollo T5 Transporter Baujahr aktuell</item>       
+        <item>Beetle Baujahr aab 1998</item>
+        <item>Beetle Baujahr ab 2011</item>
+        <item>Beetle Cabrio Baujahr ab 2013</item>
+        <item>Beetle Cabriu Baujahr ab 2003</item>
+        <item>Bora Limousine Baujahr ab 1998</item>
+        <item>Bora Variant Baujahr ab 1998</item>       
+        <item>Caddy Baujahr ab 2010</item>
+        <item>Caddy Bifuel Baujahr ab 2010</item>
+        <item>Caddy EcoFuel Baujahr ab 2010</item>
+        <item>Caddy Kombi Baujahr ab 1996</item>
+        <item>Caddy Kombi Baujahr ab 2004</item>
+        <item>Caddy Kombi EcoFuel Baujahr ab 2006</item>
+        <item>Caddy Maxi Baujahr ab 2007</item>
+        <item>Caddy Maxi Baujahr ab 2010</item>
+        <item>Caddy Maxi Bifuel Baujahr ab 2010</item>
+        <item>Caddy Maxi EcoFuel Baujahr ab 2007</item>
+        <item>Caddy Maxi EcoFuel Baujahr ab 2010</item>
+        <item>Caddy Pickup Baujahr ab 1997</item>
+        <item>Carrado Baujahr ab 1988</item>
+        <item>Crafter Baujahr ab 2006</item>
+        <item>Crafter Fahrgestell (2-Türer) Baujahr ab 2006</item>
+        <item>Crafter Fahrgestell (4-Türer) Baujahr ab 2006</item>       
+        <item>e-Golf 7 Baujahr ab 2014</item>
+        <item>Eos Baujahr ab 2006</item>
+        <item>e-up! Baujahr ab 2013</item>
+        <item>Fox Baujahr ab 2005</item>      
+        <item>Golf 3 (3-Türer) Baujahr ab 1991</item>
+        <item>Golf 3 (5-Türer) Baujahr ab 1991</item>
+        <item>Golf 3 Cabrio Baujahr ab 1993</item>
+        <item>Golf 3 Variant Baujahr ab 1993</item>
+        <item>Golf 4 (3-Türer) Baujahr ab 1997</item>
+        <item>Golf 4 (5-Türer) Baujahr ab 1997</item>
+        <item>Golf 4 Cabrio Baujahr ab 1998</item>
+        <item>Golf 4 Variant Baujahr ab 1999</item>
+        <item>Golf 4 Variant BiFuel Baujahr ab 2003</item>        
+        <item>Golf 5 (3-Türer) Baujahr ab 2003</item>
+        <item>Golf 5 (5-Türer) Baujahr ab 2003</item>
+        <item>Golf 5 Plus Baujahr ab 2005</item>
+        <item>Golf 5 Variant Baujahr ab 2006</item>
+        <item>Golf 6 (3-Türer) Baujahr ab 2008</item>
+        <item>Golf 6 (3-Türer) BiFuel Baujahr ab 2009</item>
+        <item>Golf 6 (5-Türer) Baujahr ab 2008</item>
+        <item>Golf 6 (5-Türer) BiFuel Baujahr ab 2009</item>
+        <item>Golf 6 Cabriolet Baujahr ab 2011</item>        
+        <item>Golf 6 Plus Baujahr ab 2009</item>
+        <item>Golf 6 Plus BiFuel Baujahr ab 2009</item>
+        <item>Golf 6 Variant Baujahr ab 2009</item>
+        <item>Golf 7 (3-Türer) Baujahr ab 2012</item>
+        <item>Golf 7 (5-Türer) Baujahr ab 2012</item>
+        <item>Golf 7 Sportsvan Baujahr ab 2014</item>
+        <item>Golf 7 TGI (5-Türer) Baujahr ab 2013</item>
+        <item>Golf 7 TGI Variant Baujahr ab 2014</item>
+        <item>Golf 7 Variant Baujahr ab 2013</item>       
+		<item>Jetta Baujahr ab 2005</item>
+        <item>Jetta Baujahr ab 2010</item>
+        <item>Jetta Hybrid Baujahr ab 2012</item>        
+        <item>Lupo Baujahr ab 1998</item>        
+        <item>Passat B4 Limousine Baujahr ab 1993</item>
+        <item>Passat B4 Variant Baujahr ab 1993</item>
+        <item>Passat B5 Limousine Baujahr ab 1996</item>
+        <item>Passat B5 Variant Baujahr ab 1997</item>
+        <item>Passat B6 EcoFuel Baujahr ab 2009</item>
+        <item>Passat B6 Limousine Baujahr ab 2005</item>
+        <item>Passat B6 Variant Baujahr ab 2005</item>
+        <item>Passat B6 Variant EcoFuel Baujahr ab 2009</item>
+        <item>Passat B7 Limousine Baujahr ab 2010</item>
+        <item>Passat B7 Limousine EcoFuel Baujahr ab 2010</item>
+        <item>Passat B7 Variant Baujahr ab 2010</item>
+        <item>Passat B7 Variant EcoFuel Baujahr ab 2010</item>
+        <item>Passat CC Baujahr ab 2008</item>
+        <item>Phaeton Baujahr ab 2002</item>        
+        <item>Polo A03 (3-Türer) Baujahr ab 1994</item>
+        <item>Polo A03 (5-Türer) Baujahr ab 1994</item>
+        <item>Polo A03 Variant Baujahr ab 1994</item>
+        <item>Polo A04 (3-Türer) Baujahr ab 2001</item>
+        <item>Polo A04 (5-Türer) Baujahr ab 2001</item>
+        <item>Polo A04 Stufenheck Baujahr ab 2001</item>
+        <item>Polo A05 (3-Türer) Baujahr ab 2009</item>
+        <item>Polo A05 (5-Türer) Baujahr ab 2009</item>
+        <item>Polo A05 BiFuel (3-Türer) Baujahr ab 2009</item>
+        <item>Polo A05 BiFuel (5-Türer) Baujahr ab 2009</item>       
+        <item>Scirocco Baujahr ab 2008</item>
+        <item>Sharan Baujahr ab 1995</item>
+        <item>Sharan Baujahr ab 2010</item>
+        <item>Sharan BiFuel Baujahr ab 2006</item>       
+        <item>Tiguan Baujahr ab 2007</item>
+        <item>Touareg Baujahr ab 2002</item>
+        <item>Touareg Baujahr ab 2010</item>
+        <item>Touareg Hybrid Baujahr ab 2010</item>        
+        <item>Touran (5-Sitzer) Baujahr ab 2010</item>
+        <item>Touran (7-Sitzer) Baujahr ab 2010</item>
+        <item>Touran Baujahr ab 2003</item>
+        <item>Touran Baujahr ab 2006</item>
+        <item>Touran EcoFuel (5-Sitzer) Baujahr ab 2010</item>
+        <item>Touran EcoFuel (7-Sitzer) Baujahr ab 2010</item>
+        <item>Touran EcoFuel Baujahr ab 2005</item>
+        <item>Touran EcoFuel Baujahr ab 2006</item>        
+        <item>Transporter California Baujahr ab 2003</item>
+        <item>Transporter LT2 Baujahr ab 1996</item>
+        <item>Transporter LT2 Fahrgestell (2-Türer) Baujahr ab 1996</item>
+        <item>Transporter LT2 Fahrgestell (4-Türer) Baujahr ab 1996</item>
+        <item>Transporter T4 Baujahr ab 1991</item>
+        <item>Transporter T4 Fahrgestell (2-Türer) Baujahr ab 1991</item>
+        <item>Transporter T4 Fahrgestell (4-Türer) Baujahr ab 1991</item>
+        <item>Transporter T5 Baujahr ab 2003</item>
+        <item>Transporter T5 Baujahr ab 2010</item>
+        <item>Transporter T5 California Baujahr ab 2010</item>
+        <item>Transporter T5 Fahrgestell (2-Türer) Baujahr ab 2003</item>
+        <item>Transporter T5 Fahrgestell (2-Türer) Baujahr ab 2010</item>
+        <item>Transporter T5 Fahrgestell (4-Türer) Baujahr ab 2003</item>
+        <item>Transporter T5 Fahrgestell (4-Türer) Baujahr ab 2010</item>       
+        <item>up! (3-Türer) Baujahr ab 2011</item>
+        <item>up! (5-Türer) Baujahr ab 2011</item>
+        <item>up! EcoFuel (3-Türer) Baujahr ab 2013</item>
+        <item>up! EcoFuel (5-Türer) Baujahr ab 2013</item>
+        <item>Vento Baujahr ab 1992</item>
+        <item>XL1 Europa Baujahr ab 2014</item>
+    </string-array>
+<!--     done -->
+    <string-array name="Toyota">
+        <item>Auris (3-Türer) Baujahr ab 2009</item>
+        <item>Auris (5-Türer) Baujahr ab 2009</item>
+        <item>Auris (5-Türer) Baujahr ab 2013</item>
+        <item>Auris HV (5-Türer) Baujahr ab 2010</item>
+        <item>Auris Hybrid (5-Türer) Baujahr ab 2013</item>
+        <item>Auris TS Baujahr ab 2013</item>
+        <item>Auris TS Hybrid Baujahr ab 2013</item>  
+        <item>Avensis (4-Türer) Baujahr ab 2008</item>
+        <item>Avensis T25 (5-Türer) Baujahr ab 2003</item>
+        <item>Avensis T25 Wagon (5-Türer) Baujahr ab 2008</item>
+        <item>Avensis T27 Wagon (5-Türer) Baujahr ab 2008</item>        
+        <item>Aygo (3-Türer) Baujahr ab 2005</item>
+        <item>Aygo (3-Türer) Baujahr ab 2014</item>
+        <item>Aygo (5-Türer) Baujahr ab 2005</item>
+        <item>Aygo (5-Türer) Baujahr ab 2014</item>        
+        <item>Corolla (4-Türer) Baujahr ab 2013</item>
+        <item>GT86</item>
+        <item>Hilux 4x2 4x4 Baujahr ab 2007</item>
+        <item>Hilux N2 Baujahr ab 2007</item>        
+        <item>IQ (3-Türer) Baujahr ab 2009</item>        
+        <item>Land Cruiser (5-Türer) J12</item>
+        <item>Land Cruiser (5-Türer) J15TM+J15TM TMG</item>        
+        <item>Prius 2 (5-Türer) Baujahr 2004 bis 2009</item>
+        <item>Prius Hybrid (5-Türer) Baujahr ab 2009</item>
+        <item>Prius Plug-in Hybrid (5-Türer) Baujahr ab 2012</item>
+        <item>Prius+ (5-Türer) Baujahr ab 2012</item>        
+        <item>RAV4 (5-Türer) Baujahr ab 2012</item>
+        <item>RAV4 Baujahr ab 2005</item>
+        <item>Urban Cruiser Baujahr ab 2009</item>        
+        <item>Verso Baujahr ab 2009</item>
+        <item>Verso-S Baujahr ab 2010</item>        
+        <item>Yaris (3-Türer) Baujahr ab 2005</item>
+        <item>Yaris (3-Türer) Baujahr ab 2010</item>
+        <item>Yaris (3-Türer) Baujahr ab 2014</item>
+        <item>Yaris (5-Türer) Baujahr ab 2005</item>
+        <item>Yaris (5-Türer) Baujahr ab 2010</item>
+        <item>Yaris (5-Türer) Baujahr ab 2014</item>
+        <item>Yaris Hybrid (5-Türer) Baujahr ab 2012</item>
+        <item>Yaris Hybrid (5-Türer) Baujahr ab 2014</item>
+    </string-array>
+<!--     done -->
+    <string-array name="Seat">
+        <item>Alhambra Baujahr 2001 bis 2010</item>
+        <item>Alhambra Baujahr ab 2011</item>        
+        <item>Altea Baujahr ab 2004</item>
+        <item>Altea BiFuel Baujahr ab 2009</item>
+        <item>Altea XL Baujahr ab 2007</item>
+        <item>Altea XL BiFuel Baujahr ab 2009</item>       
+        <item>Arosa Baujahr 1997 bis 2000</item>
+        <item>Arosa Baujahr 2000 bis 2004</item>      
+        <item>Cordoba Baujahr 2003 bis 2009</item>      
+        <item>Exeo Baujahr ab 2009</item>
+        <item>Exeo ST Baujahr ab 2010</item>       
+        <item>Ibiza (3-Türer) Baujahr 1993 bis 1999</item>
+        <item>Ibiza (3-Türer) Baujahr 1999 bis 2002</item>
+        <item>Ibiza (3-Türer) Baujahr 2002 bis 2009</item>
+        <item>Ibiza (3-Türer) Baujahr ab 2009 Batterie im Kofferraum</item>
+        <item>Ibiza (3-Türer) Baujahr ab 2009</item>        
+        <item>Ibiza (5-Türer) Baujahr 1993 bis 1999</item>
+        <item>Ibiza (5-Türer) Baujahr 1999 bis 2002</item>
+        <item>Ibiza (5-Türer) Baujahr 2002 bis 2009</item>        
+        <item>Ibiza (5-Türer) Baujahr ab 2009 Batterie im Kofferraum</item>        
+        <item>Ibiza (5-Türer) Baujahr ab 2009</item>
+        <item>Ibiza BiFuel (3-Türer) Baujahr ab 2012</item>
+        <item>Ibiza BiFuel (5-Türer) Baujahr ab 2012</item>
+        <item>Ibiza ST Baujahr ab 2011</item>        
+        <item>Leon (3-Türer) Baujahr ab 2013</item>
+        <item>Leon (5-Türer) Baujahr ab 2013</item>
+        <item>Leon (5-Türer) TGI Baujahr ab 2013</item>
+        <item>Leon Baujahr 1999 bis 2006</item>
+        <item>Leon Baujahr ab 2006</item>
+        <item>Leon BiFuel Baujahr ab 2009</item>
+        <item>Leon ST Baujahr ab 2014</item>
+        <item>Leon ST TGI Baujahr ab 2014</item>
+        <item>Leon ST Xperience Baujahr ab 2014</item>      
+        <item>Mii (3-Türer) Baujahr ab 2012</item>
+        <item>Mii (3-Türer) EcoFuel Baujahr ab 2012</item>
+        <item>Mii (5-Türer) Baujahr ab 2012</item>
+        <item>Mii (5-Türer) EcoFuel Baujahr ab 2012</item>
+        <item>Toledo Baujahr 1999 bis 2004</item>
+        <item>Toledo Baujahr 2005 bis 2009</item>
+        <item>Toledo Baujahr ab 2013</item>
+    </string-array>
+<!--     done -->
+    <string-array name="Dethleffs">
+        <item>Advantage A5881 Baujahr ab 2012</item>
+        <item>Advantage A6971 Baujahr ab 2012</item>
+        <item>Advantage A7871-2 Baujahr ab 2012</item>
+        <item>Advantage I5701 Baujahr ab 2012</item>
+        <item>Advantage I5701 Baujahr ab 2013</item>
+        <item>Advantage I5871 Baujahr ab 2012</item>
+        <item>Advantage I5871 Baujahr ab 2013</item>
+        <item>Advantage I5871 Baujahr ab 2014</item>
+        <item>Advantage I6501 Baujahr ab 2012</item>
+        <item>Advantage I6511 Baujahr ab 2012</item>
+        <item>Advantage I6511 Baujahr ab 2013</item>
+        <item>Advantage I6511 Baujahr ab 2014</item>
+        <item>Advantage I6701 Baujahr ab 2014</item>
+        <item>Advantage I6771 Baujahr ab 2012</item>
+        <item>Advantage I6811 Baujahr ab 2013</item>
+        <item>Advantage I6851 Baujahr ab 2012</item>
+        <item>Advantage I6871 Baujahr ab 2013</item>
+        <item>Advantage I7011 Baujahr ab 2013</item>
+        <item>Advantage I7091 Baujahr ab 2013</item>
+        <item>Advantage I7151 Baujahr ab 2013</item>
+        <item>Advantage I7151 EB Baujahr ab 2013</item>
+        <item>Advantage T5701 Baujahr ab 2012</item>
+        <item>Advantage T5701 Baujahr ab 2013</item>
+        <item>Advantage T5871 Baujahr ab 2012</item>
+        <item>Advantage T5871 Baujahr ab 2013</item>
+        <item>Advantage T5871 Baujahr ab 2014</item>
+        <item>Advantage T6501 Baujahr ab 2012</item>
+        <item>Advantage T6511 Baujahr ab 2012</item>
+        <item>Advantage T6511 Baujahr ab 2013</item>
+        <item>Advantage T6511 Baujahr ab 2014</item>
+        <item>Advantage T6701 Baujahr ab 2014</item>
+        <item>Advantage T6771 Baujahr ab 2012</item>
+        <item>Advantage T6811 Baujahr ab 2013</item>
+        <item>Advantage T6851 Baujahr ab 2012</item>
+        <item>Advantage T6871 Baujahr ab 2013</item>
+        <item>Advantage T7011 Baujahr ab 2013</item>
+        <item>Advantage T7091 Baujahr ab 2013</item>
+        <item>Advantage T7151 Baujahr ab 2013</item>
+        <item>Advantage T7151 EB Baujahr ab 2013</item>
+        <item>AlPa Baujahr ab 2012</item>
+        <item>AlPa Baujahr ab 2013</item>
+        <item>Esprit Comfort A6820-2 Baujahr ab 2013</item>
+        <item>Esprit Comfort A6820-2 Baujahr ab 2014</item>
+        <item>Esprit Comfort A7870-2 Baujahr ab 2014</item>
+        <item>Esprit Comfort I7010-2 Baujahr ab 2013</item>
+        <item>Esprit Comfort I7010-2 Baujahr ab 2014</item>
+        <item>Esprit Comfort I7090-2 Baujahr ab 2013</item>
+        <item>Esprit Comfort I7090-2 Baujahr ab 2014</item>
+        <item>Esprit Comfort I7150-2 Baujahr ab 2013</item>
+        <item>Esprit Comfort I7150-2 Baujahr ab 2014</item>
+        <item>Esprit Comfort I7150-2 EB Baujahr ab 2013</item>
+        <item>Esprit Comfort I7150-2 EB Baujahr ab 2014</item>
+        <item>Esprit Comfort T7010-2 Baujahr ab 2013</item>
+        <item>Esprit Comfort T7010-2 Baujahr ab 2014</item>
+        <item>Esprit Comfort T7090-2 Baujahr ab 2013</item>
+        <item>Esprit Comfort T7090-2 Baujahr ab 2014</item>
+        <item>Esprit Comfort T7150-2 Baujahr ab 2013</item>
+        <item>Esprit Comfort T7150-2 Baujahr ab 2014</item>
+        <item>Esprit Comfort T7150-2 EB Baujahr ab 2013</item>
+        <item>Esprit Comfort T7150-2 EB Baujahr ab 2014</item>
+        <item>Esprit ComfortA_7870-2 Baujahr ab 2013</item>
+        <item>Esprit I6700 Baujahr ab 2012</item>
+        <item>Esprit I6810 Baujahr ab 2012</item>
+        <item>Esprit I6810 Baujahr ab 2014</item>
+        <item>Esprit I6870 Baujahr ab 2012</item>
+        <item>Esprit I6870 Baujahr ab 2014</item>
+        <item>Esprit I7010 Baujahr ab 2012</item>
+        <item>Esprit I7010 Baujahr ab 2014</item>
+        <item>Esprit I7090 Baujahr ab 2012</item>
+        <item>Esprit I7090 Baujahr ab 2014</item>
+        <item>Esprit I7150 Baujahr ab 2012</item>
+        <item>Esprit I7150 Baujahr ab 2014</item>
+        <item>Esprit I7150 EB Baujahr ab 2014</item>
+        <item>Esprit T6700 Baujahr ab 2012</item>
+        <item>Esprit T6810 Baujahr ab 2012</item>
+        <item>Esprit T6810 Baujahr ab 2014</item>
+        <item>Esprit T6870 Baujahr ab 2012</item>
+        <item>Esprit T6870 Baujahr ab 2014</item>
+        <item>Esprit T7010 Baujahr ab 2012</item>
+        <item>Esprit T7010 Baujahr ab 2014</item>
+        <item>Esprit T7090 Baujahr ab 2012</item>
+        <item>Esprit T7090 Baujahr ab 2014</item>
+        <item>Esprit T7150 Baujahr ab 2012</item>
+        <item>Esprit T7150 Baujahr ab 2014</item>
+        <item>Esprit T7150 EB Baujahr ab 2014</item>
+        <item>Evan 520 Baujahr ab 2014</item>
+        <item>Evan 560 Baujahr ab 2014</item>
+        <item>Globe S 570 Baujahr ab 2012</item>
+        <item>Globe S 584 Baujahr ab 2012</item>
+        <item>Globe S 587 Baujahr ab 2012</item>
+        <item>Globe S 661 Baujahr ab 2012</item>
+        <item>Globe S 677 Baujahr ab 2012</item>
+        <item>Globe S 685 Baujahr ab 2012</item>
+        <item>Globe S 690 Baujahr ab 2012</item>
+        <item>Globe S A547 Baujahr ab 2012</item>
+        <item>Globe S A547 Baujahr ab 2013</item>
+        <item>Globe S A598 Baujahr ab 2012</item>
+        <item>Globe S A598 Baujahr ab 2013</item>
+        <item>Globe S A653 Baujahr ab 2013</item>
+        <item>Globe S A677 (1) Baujahr ab 2013</item>
+        <item>Globe S A677 Baujahr ab 2012</item>
+        <item>Globe S A678 (1) Baujahr ab 2013</item>
+        <item>Globe S A678 Baujahr ab 2012</item>
+        <item>Globe S A701 Baujahr ab 2013</item>
+        <item>Globe S T570 Baujahr ab 2013</item>
+        <item>Globe S T584 Baujahr ab 2013</item>
+        <item>Globe S T661 Baujahr ab 2013</item>
+        <item>Globe S T677 Baujahr ab 2013</item>
+        <item>Globe S T685 Baujahr ab 2013</item>
+        <item>Globe S T690 Baujahr ab 2013</item>
+        <item>Globe4 5881 Baujahr ab 2012</item>
+        <item>Globe4 5881 Baujahr ab 2013</item>
+        <item>Globe4 6401 Baujahr ab 2012</item>
+        <item>Globe4 6401 Baujahr ab 2013</item>
+        <item>Globe4 6471 Baujahr ab 2012</item>
+        <item>Globe4 6671 Baujahr ab 2012</item>
+        <item>Globe4 6671 Baujahr ab 2013</item>
+        <item>Globe4 6801 Baujahr ab 2013</item>
+        <item>Globe4 6911 (1) Baujahr ab 2013</item>
+        <item>Globe4 6911 Baujahr ab 2012</item>
+        <item>Globe4 7151 Baujahr ab 2012</item>
+        <item>Globe4 7151 Baujahr ab 2013</item>
+        <item>Globe4 T6801-4 Baujahr ab 2014</item>
+        <item>Globe4 T6911-4 Baujahr ab 2014</item>
+        <item>Globe4 T6911-4 DB Baujahr ab 2014</item>
+        <item>Globe4 T7151-4 Baujahr ab 2014</item>
+        <item>Globe4 T7151-4 EB Baujahr ab 2014</item>
+        <item>Globebus I1 Baujahr ab 2012</item>
+        <item>Globebus I1 Baujahr ab 2013</item>
+        <item>Globebus I1 Baujahr ab 2014</item>
+        <item>Globebus I2 Baujahr ab 2012</item>
+        <item>Globebus I2 Baujahr ab 2013</item>
+        <item>Globebus I2 Baujahr ab 2014</item>
+        <item>Globebus I4 Baujahr ab 2012</item>
+        <item>Globebus I4 Baujahr ab 2013</item>
+        <item>Globebus I4 Baujahr ab 2014</item>
+        <item>Globebus I8 Baujahr ab 2013</item>
+        <item>Globebus I8 Baujahr ab 2014</item>
+        <item>Globebus I11 (1) Baujahr ab 2013</item>
+        <item>Globebus I11 Baujahr ab 2012</item>
+        <item>Globebus I11 Baujahr ab 2014</item>
+        <item>Globebus I15 Baujahr ab 2012</item>
+        <item>Globebus I15 Baujahr ab 2013</item>
+        <item>Globebus I15 Baujahr ab 2014</item>
+        <item>Globebus T1 Baujahr ab 2012</item>
+        <item>Globebus T1 Baujahr ab 2013</item>
+        <item>Globebus T1 Baujahr ab 2014</item>
+        <item>Globebus T2 Baujahr ab 2012</item>
+        <item>Globebus T2 Baujahr ab 2013</item>
+        <item>Globebus T2 Baujahr ab 2014</item>
+        <item>Globebus T4 Baujahr ab 2012</item>
+        <item>Globebus T4 Baujahr ab 2013</item>
+        <item>Globebus T4 Baujahr ab 2014</item>
+        <item>Globebus T8 Baujahr ab 2013</item>
+        <item>Globebus T8 Baujahr ab 2014</item>
+        <item>Globebus T11 Baujahr ab 2012</item>
+        <item>Globebus T11 Baujahr ab 2013</item>
+        <item>Globebus T11 Baujahr ab 2014</item>
+        <item>Globebus T14 Baujahr ab 2012</item>
+        <item>Globebus T15 Baujahr ab 2012</item>
+        <item>Globebus T15 Baujahr ab 2013</item>
+        <item>Globebus T15 Baujahr ab 2014</item>
+        <item>Globetrotter XL I7070 Baujahr ab 2012</item>
+        <item>Globetrotter XL I7110 Baujahr ab 2012</item>
+        <item>Globetrotter XL I7110 Baujahr ab 2013</item>
+        <item>Globetrotter XL I7110-2 Baujahr ab 2014</item>
+        <item>Globetrotter XL I7850 Baujahr ab 2012</item>
+        <item>Globetrotter XL I7850 Baujahr ab 2013</item>
+        <item>Globetrotter XL I7850 EB Baujahr ab 2013</item>
+        <item>Globetrotter XL I7850-2 Baujahr ab 2014</item>
+        <item>Globetrotter XL I7850-EB Baujahr ab 2012</item>
+        <item>Globetrotter XL I7870 Baujahr ab 2012</item>
+        <item>Globetrotter XL I7870 Baujahr ab 2013</item>
+        <item>Globetrotter XL I7870-2 Baujahr ab 2014</item>
+        <item>Globetrotter XXL 9000 Baujahr ab 2013</item>
+        <item>Globetrotter XXL 9800 Baujahr ab 2013</item>
+        <item>Globetrotter XXL A9000 Baujahr ab 2012</item>
+        <item>Globetrotter XXL A9800 Baujahr ab 2012</item>
+        <item>Globetrotter XXL I9000 Baujahr ab 2012</item>
+        <item>Globetrotter XXL I9000 Baujahr ab 2013</item>
+        <item>Globetrotter XXL I9800 Baujahr ab 2012</item>
+        <item>Globetrotter XXL I9800 Baujahr ab 2013</item>
+        <item>Magic Edition Globe4 7151 DB (1) Baujahr ab 2013</item>
+        <item>Magic Edition Globe4 7151 DB Baujahr ab 2012</item>
+        <item>Magic Edition Globe4 7151 DBM (1) Baujahr ab 2013</item>
+        <item>Magic Edition Globe4 7151 DBM Baujahr ab 2012</item>
+        <item>Magic Edition Globe4 7151 EB (1) Baujahr ab 2013</item>
+        <item>Magic Edition Globe4 7151 EB Baujahr ab 2012</item>
+        <item>Magic Edition I001 DB Baujahr ab 2012</item>
+        <item>Magic Edition I001 DB Baujahr ab 2013</item>
+        <item>Magic Edition I001 DBM Baujahr ab 2012</item>
+        <item>Magic Edition I001 DBM Baujahr ab 2013</item>
+        <item>Magic Edition I001 EB Baujahr ab 2012</item>
+        <item>Magic Edition I001 EB Baujahr ab 2013</item>
+        <item>Magic Edition I001 SG Baujahr ab 2012</item>
+        <item>Magic Edition I001 SG Baujahr ab 2013</item>
+        <item>Magic Edition I1 DB Baujahr ab 2014</item>
+        <item>Magic Edition I1 DBM Baujahr ab 2014</item>
+        <item>Magic Edition I1 EB Baujahr ab 2014</item>
+        <item>Magic Edition T 001 EB Baujahr ab 2012</item>
+        <item>Magic Edition T 001 EB Baujahr ab 2013</item>
+        <item>Magic Edition T001 DB Baujahr ab 2012</item>
+        <item>Magic Edition T001 DB Baujahr ab 2013</item>
+        <item>Magic Edition T001 DBM Baujahr ab 2012</item>
+        <item>Magic Edition T001 DBM Baujahr ab 2013</item>
+        <item>Magic Edition T001 SG Baujahr ab 2012</item>
+        <item>Magic Edition T001 SG Baujahr ab 2013</item>
+        <item>Magic Edition T1 DB Baujahr ab 2014</item>
+        <item>Magic Edition T1 DBM Baujahr ab 2014</item>
+        <item>Magic Edition T1 EB Baujahr ab 2014</item>
+        <item>Premium Liner 9910 Baujahr ab 2012</item>
+        <item>Premium Liner 9910 Baujahr ab 2013</item>
+        <item>Premium Liner 9940 Baujahr ab 2012</item>
+        <item>Premium Liner 9940 Baujahr ab 2013</item>
+        <item>Premium Liner 9950 Baujahr ab 2012</item>
+        <item>Premium Liner 9950 Baujahr ab 2013</item>
+        <item>Summer Edition I6701 Baujahr ab 2013</item>
+        <item>Summer Edition T6701 Baujahr ab 2013</item>
+        <item>Trend A5887 Baujahr ab 2014</item>
+        <item>Trend A6977 Baujahr ab 2014</item>
+        <item>Trend T6617 Baujahr ab 2014</item>
+        <item>Trend T6777 Baujahr ab 2014</item>
+        <item>Trend T6857 Baujahr ab 2014</item>
+    </string-array>
+
+    <!-- done -->
+    <string-array name="Nissan">
+        <item>350Z Cabriolet Baujahr 2003 bis 2009</item>
+        <item>350Z Coupé Baujahr 2002 bis 2009</item>
+        <item>370Z Cabriolet Baujahr ab 2010</item>
+        <item>370Z Coupé Baujahr ab 2009</item>
+        <item>Almera 3-Türer Baujahr 1995 bis 2007</item>
+        <item>Almera 4-Türer Baujahr 1995 bis 2007</item>
+        <item>Almera 5-Türer Baujahr 1995 bis 2007</item>
+        <item>Almera Tino Baujahr 2000 bis 2006</item>
+        <item>Cube Baujahr 2010 bis 2011</item>
+        <item>e-NV200 Baujahr ab 2014</item>
+        <item>Evalia Baujahr ab 2011</item>
+        <item>GT-R Baujahr ab 2008</item>
+        <item>Interstar Baujahr 2004 bis 2010</item>
+        <item>Juke Baujahr ab 2010</item>
+        <item>Leaf ab Baujahr 2013</item>
+        <item>Leaf Baujahr 2011 bis 2013</item>
+        <item>Micra 3-Türer Baujahr 1996 bis 2003</item>
+        <item>Micra 3-Türer Baujahr 2003 bis 2010</item>
+        <item>Micra 5-Türer Baujahr 1996 bis 2003</item>
+        <item>Micra 5-Türer Baujahr 2003 bis 2010</item>
+        <item>Micra 5-Türer Baujahr ab 2010</item>
+        <item>Micra C+C Baujahr 2005 bis 2009</item>
+        <item>Murano Baujahr 2005 bis 2008</item>
+        <item>Murano Baujahr ab 2008</item>
+        <item>Navara Crew Cab Baujahr ab 2005</item>
+        <item>Navara King Cab Baujahr ab 2005</item>
+        <item>Note Baujahr 2006 bis 2013</item>
+        <item>Note Baujahr ab 2013</item>
+        <item>NP300 Double Cab Baujahr 2008 bis 2011</item>
+        <item>NP300 Single Cab Baujahr 2008 bis 2011</item>
+        <item>NT400 Cabstar Baujahr ab 2006</item>
+        <item>NV200 Baujahr ab 2009</item>
+        <item>NV400 Baujahr ab 2011</item>
+        <item>Pathfinder Baujahr ab 2005</item>
+        <item>Patrol 3-Türer Baujahr 2000 bis 2009</item>
+        <item>Patrol 5-Türer Baujahr 2000 bis 2009</item>
+        <item>Pixo Baujahr 2009 bis 2013</item>
+        <item>Primastar Baujahr ab 2003</item>
+        <item>Primera 4-Türer Baujahr 1994 bis 2002</item>
+        <item>Primera 4-Türer Baujahr 2002 bis 2008</item>
+        <item>Primera 5-Türer Baujahr 1994 bis 2002</item>
+        <item>Primera 5-Türer Baujahr 2002 bis 2008</item>
+        <item>Primera Kombi Baujahr 1994 bis 2002</item>
+        <item>Primera Kombi Baujahr 2002 bis 2008</item>
+        <item>Pulsar Baujahr ab 2014</item>
+        <item>Qashqai Baujahr 2007 bis 2014</item>
+        <item>Qashqai Baujahr ab 2014</item>
+        <item>Qashqai+2 Baujahr 2008 bis 2014</item>
+        <item>Tiida Baujahr 2006 bis 2011</item>
+        <item>X-Trail Baujahr 2001 bis 2007</item>
+        <item>X-Trail Baujahr 2007 bis 2014</item>
+        <item>X-Trail Baujahr ab 2014</item>
+        <item>NP300 King Cab Baujahr 2008 bis 2011</item>
+    </string-array>
+    <!-- <done -->
+    <string-array name="Peugeot">
+        <item>107 3- und 5-Türer Baujahr ab 2005</item>
+        <item>206 3- und 5-Türer Baujahr ab 1998</item>
+        <item>206+ 3- und 5-Türer</item>
+        <item>206cc</item>
+        <item>206SW Baujahr ab 2002</item>
+        <item>207 3- und 5-Türer Baujahr ab 2006</item>
+        <item>207cc Baujahr ab 2007</item>
+        <item>207SW Baujahr ab 2006</item>
+        <item>208 3- und 5-Türer Baujahr ab 2012</item>
+        <item>307 3- und 5-Türer Baujahr 2001 bis 2007</item>
+        <item>307cc Baujahr 2003 bis 2008</item>
+        <item>307SW Baujahr 2002 bis 2008</item>
+        <item>308 3- und 5-Türer Baujahr ab 2013</item>
+        <item>308cc Baujahr ab 2008</item>
+        <item>308SW Baujahr ab 2007</item>
+        <item>308SW Baujahr ab 2013</item>
+        <item>407 Baujahr ab 2004</item>
+        <item>407 coupé Baujahr ab 2005</item>
+        <item>407SW Baujahr ab 2004</item>
+        <item>508 4-Türer Baujahr ab 2011</item>
+        <item>508 Hybrid Baujahr ab 2012</item>
+        <item>508RXH Baujahr ab 2012</item>
+        <item>508SW Baujahr ab 2011</item>
+        <item>807 Baujahr ab 2002</item>
+        <item>1007 Baujahr 2002 bis 2009</item>
+        <item>2008Baujahr ab 2013</item>
+        <item>3008 Baujahr ab 2009</item>
+        <item>3008 Hybrid 4 Baujahr ab 2012</item>
+        <item>4007 Baujahr ab 2007</item>
+        <item>5008 Baujahr ab 2009</item>
+        <item>Bipper Baujahr ab 2008</item>
+        <item>Boxer Baujahr ab 2007</item>
+        <item>Elektrofahrzeuge Notfallhandbuch Berlingo + Partner</item>
+        <item>Expert Baujahr ab 2007</item>
+        <item>Hybrid4-Fahrzeuge Rettungshandbuch</item>
+        <item>iOn Baujahr ab 2010</item>
+        <item>iOn Handbuch zur Rettung von Insassen</item>
+        <item>Partner + Partner Origin Baujahr ab 1996</item>
+        <item>Partner + Partner Origin Baujahr ab 2010</item>
+        <item>Partner Baujahr ab 2008</item>
+        <item>RCZ Baujahr ab 2010</item>
+        <item>Torro Boxer Reisemobil Baujahr aktuell</item>
+    </string-array>
+    <!-- done -->
+    <string-array name="Renault">
+        <item>Avantime Baujahr 2001 bis 2003</item>
+        <item>Captur Baujahr ab 2013</item>
+      
+        <item>Clio 1 (3-Türer) Baujahr 1994 bis 1998</item>
+        <item>Clio 2 (3-Türer Baujahr ab 1998</item>
+        <item>Clio 3 (3-Türer) Baujahr ab 2005</item>
+        <item>Clio 3 (5-Türer) Baujahr 2005 bis 2012</item>
+        <item>Clio 3 Grandtour Baujahr 2008 bis 2013</item>
+        <item>Clio 4 Baujahr ab 2012</item>
+        <item>Clio 4 Grandtour Baujahr ab 2013</item>
+        <item>Espace 3 Baujahr 1997 bis 2002</item>
+        <item>Espace 4 Baujahr ab 2002</item>
+        <item>Fluence Baujahr ab 2010</item>
+        <item>Fluence Z.E. Baujahr ab 2011</item>       
+        <item>Grand Scénic 3 Baujahr ab 2009</item>
+        <item>Kangoo 1 + Kankoo Rapid 1 Baujahr 2003 bis 2007</item>
+        <item>Kangoo 2 + Kangoo Rapid 2 Baujahr ab 2007</item>
+        <item>Kangoo be bop Baujahr ab 2009</item>
+        <item>Kangoo Z.E. Baujahr ab 2011</item>
+        <item>Koleos Baujahr ab 2008</item>      
+        <item>Laguna 1 Baujahr 1994 bis 1997</item>
+        <item>Laguna 1 Baujahr 1997 bis 2001</item>
+        <item>Laguna 1 Grandtour Baujahr 1995 bis 1997</item>
+        <item>Laguna 1 Grandtour Baujahr 1997 bis 2001</item>
+        <item>Laguna 2 Baujahr 2000 bis 2007</item>
+        <item>Laguna 2 Grandtour Baujahr 2000 bis 2007</item>
+        <item>Laguna 3 Baujahr ab 2009</item>
+        <item>Laguna 3 Coupé Baujahr ab 2008</item>
+        <item>Laguna 3 Grandtour Baujahr ab 2009</item>      
+        <item>Latitude Baujahr ab 2011</item>        
+        <item>Master 2 Baujahr 2003 bis 2010</item>
+        <item>Master 3 Baujahr ab 2010</item>
+        <item>Mégane 1 (4-Türer) + Chamade  Baujahr 1996 bis 1999</item>
+        <item>Mégane 1 (4-Türer) + Chamade Baujahr 1999 bis 2003</item>
+        <item>Mégane 1 (5-Türer) Baujahr 1996bis 1999</item>
+        <item>Mégane 1 Cabriolet Baujahr 1999 bis 2003</item>
+        <item>Mégane 1 Coupé + Coach Baujahr 1996 bis 1999</item>
+        <item>Mégane 1 Coupé + Coach Baujahr 1999 bis 2002</item>
+        <item>Mégane 1 Grandtour Baujahr 1999 bis 2003</item>        
+        <item>Mégane 2 (3-Türer) Baujahr 2002 bis 2008</item>
+        <item>Mégane 2 (4-Türer) Baujahr 2003 bis 2008</item>
+        <item>Mégane 2 (5-Türer) Baujahr 2002 bis 2008</item>
+        <item>Mégane 2 Coupé Cabrio Baujahr 2003 bis 2009</item>
+        <item>Mégane 2 Coupé Cabrio Baujahr 2003 bis 2009</item>
+        <item>Mégane 2 Grandtour Baujahr 2003 bis 2009</item>
+        <item>Mégane 3 Baujahr ab 2009</item>
+        <item>Mégane 3 Coupé Baujahr ab 2009</item>
+        <item>Mégane 3 Coupé Cabrio Baujahr ab 2010</item>
+        <item>Mégane 3 Grandtour Baujahr ab 2009</item>
+        <item>Mégane Scénic 1 Baujahr 1996 bis 1999</item>
+        <item>Megané 1 Cabriolet Baujahr 1997 bis 1999</item>
+        <item>Megane 1 (5-Türer) Baujahr 1999 bis 2003</item>
+        <item>Modus Baujahr ab 2004</item>        
+        <item>R19 (3-Türer) Baujahr 1994 bis 1995</item>
+        <item>R19 (4-Türer) Baujahr 1994 bis 1995</item>
+        <item>R19 (5-Türer) Baujahr 1994 bis 1996</item>
+        <item>R19 Cabriolet Baujahr 1995 bis 1996</item>        
+        <item>Safrane Baujahr 1992 bis 2000</item>
+        <item>Scénic 1  Baujahr 1999 bis 2003</item>
+        <item>Scénic 2 Baujahr 2003 bis 2009</item>
+        <item>Scénic 3 Baujahr ab 2009</item>       
+        <item>Thalia Symbol Baujahr 1998 bis 2005</item>
+        <item>Trafic 2 Baujahr ab 2001</item>
+        <item>Twingo 1 Baujahr 1993 bis 2007</item>
+        <item>Twingo 2 Baujahr ab 2007</item>
+        <item>Twizy Baujahr ab 2012</item>       
+        <item>Vel Satis Baujahr 2002 bis 2009</item>
+        <item>Wind Baujahr ab 2010</item>
+        <item>Zoe Z.E. Baujahr ab 2013</item>
+    </string-array>
+<!--     done -->
+
+</resources>

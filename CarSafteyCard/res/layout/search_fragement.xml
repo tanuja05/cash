@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg">
+    <ScrollView android:layout_height="match_parent"
+        android:layout_width="match_parent">
+     <RelativeLayout
+        android:id="@+id/re1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+       >
+    <RelativeLayout
+        android:id="@+id/logo_rel"
+        android:layout_width="250dp"
+        android:layout_height="150dp"
+        android:layout_marginTop="40dp"
+        android:layout_centerHorizontal="true">
+        
+        <ImageView
+            android:id="@+id/logo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:src="@drawable/screen_img_eng" />
+
+        </RelativeLayout>
+        
+    <RelativeLayout 
+        android:id="@+id/car_name_rel"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/logo_rel">
+        
+        <RelativeLayout 
+            android:id="@+id/car_name_rel1"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp">
+            
+            <AutoCompleteTextView
+        android:id="@+id/autoCompleteTextView1"
+        android:layout_width="fill_parent"
+        android:layout_height="40dp"
+        android:layout_below="@+id/car_name_text"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/all_data_bg"
+        android:layout_marginTop="5dp"
+        android:padding="5dp"
+        android:ems="10"
+        android:textColor="#fff"
+        android:text="" >
+
+        <requestFocus />
+    </AutoCompleteTextView>
+
+            <TextView
+                android:id="@+id/car_name_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:text="Car Manufacturer"
+                android:textColor="#FFFFFF"
+                android:textSize="15sp" />
+
+        </RelativeLayout>
+         </RelativeLayout>
+        <RelativeLayout 
+            android:id="@+id/model_year_rel"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/car_name_rel"
+            android:layout_marginTop="10dp">
+            
+            <RelativeLayout 
+                android:id="@+id/model_year_rel1"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp">
+                
+                <TextView 
+                    android:id="@+id/model_year_text"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:text="model/type/year"
+                    android:textColor="#FFFFFF"
+                android:textSize="15sp"/>
+                
+                <TextView 
+                    android:id="@+id/select_model_btn"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/model_year_text"
+                    android:layout_marginTop="5dp"
+                    android:padding="4dp"
+                    android:text="Select Model/Type/Year"
+                    android:textColor="#FFF"
+                    android:gravity="center"
+                    android:background="@drawable/selectbar"/>
+            </RelativeLayout>
+         </RelativeLayout>
+        
+   <RelativeLayout 
+                android:id="@+id/search_download_rel"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/model_year_rel"
+                android:layout_marginTop="10dp">
+       
+       <RelativeLayout 
+           android:id="@+id/search_download_rel1"
+           android:layout_width="fill_parent"
+           android:layout_height="wrap_content"
+           android:layout_marginLeft="20dp"
+           android:layout_marginRight="20dp">
+           
+           <Button 
+               android:id="@+id/btn_search"
+               android:layout_width="fill_parent"
+               android:layout_height="40dp"
+               android:text="Search"
+               android:textColor="#FFF"
+               android:background="@drawable/all_data_bg"/>
+           
+           <Button 
+               android:id="@+id/btn_download"
+               android:layout_width="fill_parent"
+               android:layout_height="40dp"
+               android:text="Download all files"
+               android:layout_below="@+id/btn_search"
+               android:layout_marginTop="5dp"
+               android:textColor="#FFF"
+               android:background="@drawable/all_data_bg"/>
+           <Button 
+               android:id="@+id/btn_symbols"
+               android:layout_width="fill_parent"
+               android:layout_height="40dp"
+               android:text="Standard Symbols"
+               android:layout_below="@+id/btn_download"
+               android:layout_marginTop="5dp"
+               android:textColor="#FFF"
+               android:background="@drawable/all_data_bg"/>
+           
+       </RelativeLayout>
+   </RelativeLayout>
+        </RelativeLayout>
+   </ScrollView>
+
+</RelativeLayout>
